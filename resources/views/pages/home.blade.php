@@ -4,6 +4,27 @@
 
 @section('content')
 
+    <style>
+        @keyframes marquee-anim {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .animate-marquee-custom {
+            display: inline-block;
+            white-space: nowrap;
+            /* PENTING: Mencegah teks turun ke bawah di HP */
+            animation: marquee-anim 20s linear infinite;
+            padding-left: 100%;
+            /* Agar mulai dari luar layar kanan */
+        }
+    </style>
+
     <div class="scanlines"></div>
 
     <section class="min-h-screen flex flex-col justify-center items-center relative px-4 pt-10">
@@ -78,8 +99,8 @@
     </section>
 
     <div class="bg-navy py-3 border-y-4 border-periwinkle rotate-1 scale-105 z-20 relative shadow-lg overflow-hidden">
-        <div class="marquee-container text-cream tracking-widest">
-            <div class="marquee-content font-pixel text-3xl uppercase tracking-[0.15em]"
+        <div class="marquee-container text-cream tracking-widest relative overflow-hidden w-full">
+            <div class="animate-marquee-custom font-pixel text-xl md:text-3xl uppercase tracking-[0.15em]"
                 style="font-family: 'VT323', monospace !important;">
                 +++ SYSTEM READY +++ AI & DATA SOLUTIONS +++ WEB DEVELOPMENT +++ SKRIPSI RESCUE +++ INITIATING PROTOCOL...
                 +++
@@ -308,7 +329,7 @@
 
 @push('scripts')
     <script>
-        // 1. TYPED JS CONFIG (FIX GLITCH AMPERSAND)
+        // 1. TYPED JS CONFIG
         var typed = new Typed('#typed-text', {
             strings: [
                 'Web Development.',
@@ -316,7 +337,6 @@
                 'Skripsi & Academic Assistance.',
                 'System.out.println("Hello anno.tech");'
             ],
-            // PENTING: 'contentType: text' agar simbol & tidak dianggap HTML entity
             contentType: 'text',
             typeSpeed: 40,
             backSpeed: 20,
