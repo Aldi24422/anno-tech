@@ -1,0 +1,28 @@
+/* public/assets/css/custom.css */
+
+/* 1. BACKGROUND GRID (Kunci agar tidak sepi) */
+body {
+    background-color: #FFF2F2;
+    background-image: radial-gradient(#A9B5DF 2px, transparent 2px);
+    background-size: 24px 24px; /* Ukuran kotak grid */
+}
+
+/* 2. SCROLLBAR RETRO */
+::-webkit-scrollbar { width: 12px; }
+::-webkit-scrollbar-track { background: #FFF2F2; border-left: 2px solid #2D336B; }
+::-webkit-scrollbar-thumb { background: #2D336B; border: 2px solid #FFF2F2; }
+
+/* 3. UTILITIES */
+.pixelated { image-rendering: pixelated; }
+
+/* Efek Garis Scanline (biar kayak monitor tabung - Opsional) */
+.scanlines {
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(0,0,0,0.05) 50%, rgba(0,0,0,0.05));
+    background-size: 100% 4px;
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; pointer-events: none; z-index: 9999;
+}
+
+/* Animasi Marquee (Teks Jalan) */
+.marquee-container { overflow: hidden; white-space: nowrap; }
+.marquee-content { display: inline-block; animation: marquee 20s linear infinite; }
+@keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
