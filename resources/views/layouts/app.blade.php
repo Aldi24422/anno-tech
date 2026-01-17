@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'anno.tech | IT Solutions')</title>
-    <link rel="icon" href="{{ asset('favicon.png') }}?v=3" type="image/png">
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}?v=3" type="image/x-icon">
+    <link rel="icon" href="{{ asset('favicon.png') }}?v=4" type="image/png">
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}?v=4" type="image/x-icon">
 
     <script src="https://cdn.tailwindcss.com"></script>
 

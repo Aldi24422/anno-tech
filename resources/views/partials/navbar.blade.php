@@ -6,7 +6,7 @@
 
         <a href="{{ url('/') }}" class="group flex items-center gap-3 select-none">
             <div class="relative">
-                <img src="{{ asset('assets/img/logo.png') }}" alt="anno.tech icon"
+                <img src="{{ asset('favicon.png') }}?v=4" alt="anno.tech icon"
                     class="h-9 md:h-10 w-auto pixelated transition-transform group-hover:rotate-6 group-hover:scale-110">
             </div>
             <span class="font-pixel text-2xl md:text-3xl font-bold tracking-wide leading-none mt-1">
