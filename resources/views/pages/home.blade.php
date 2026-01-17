@@ -194,49 +194,61 @@
                 <div class="space-y-6 mb-8">
                     <!-- SECTION DESAIN -->
                     <div>
-                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3">1. DESAIN GRAFIS
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3">1. DESAIN
+                            GRAFIS
                         </h4>
                         <ul class="space-y-3 text-navy font-pixel tracking-wide">
                             <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">Logo / Stiker Produk</span> <span class="text-lg text-red-500">Start 20k</span>
+                                <span class="text-xl">Logo / Stiker Produk</span> <span class="text-lg text-red-500">Start
+                                    20k</span>
                             </li>
                             <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">Poster / PPT</span> <span class="text-lg text-red-500">Start 10k</span>
+                                <span class="text-xl">Poster / PPT</span> <span class="text-lg text-red-500">Start
+                                    10k</span>
                             </li>
                             <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">UI/UX (App / Web)</span> <span class="text-lg text-red-500">50k / page</span>
+                                <span class="text-xl">UI/UX (App / Web)</span> <span class="text-lg text-red-500">50k /
+                                    page</span>
                             </li>
                         </ul>
                     </div>
 
                     <!-- SECTION WEBSITE -->
                     <div>
-                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3">2. WEBSITE</h4>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3">2. WEBSITE
+                        </h4>
                         <ul class="space-y-3 text-navy font-pixel tracking-wide">
                             <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">Undangan Digital</span> <span class="text-lg text-red-500">Start 30k</span>
+                                <span class="text-xl">Undangan Digital</span> <span class="text-lg text-red-500">Start
+                                    30k</span>
                             </li>
                             <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">Portfolio Web</span> <span class="text-lg text-red-500">30k - 100k</span>
+                                <span class="text-xl">Portfolio Web</span> <span class="text-lg text-red-500">30k -
+                                    100k</span>
                             </li>
                             <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">Company Profile</span> <span class="text-lg text-red-500">Start 1.000k</span>
+                                <span class="text-xl">Company Profile</span> <span class="text-lg text-red-500">Start
+                                    1.000k</span>
                             </li>
                             <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">Katalog / Olshop</span> <span class="text-lg text-red-500">Start 1.000k</span>
+                                <span class="text-xl">Katalog / Olshop</span> <span class="text-lg text-red-500">Start
+                                    1.000k</span>
                             </li>
                         </ul>
                     </div>
 
                     <!-- SECTION APLIKASI -->
                     <div>
-                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3">3. APLIKASI</h4>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3">3. APLIKASI
+                        </h4>
                         <ul class="space-y-3 text-navy font-pixel tracking-wide">
                             <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">App Mobile / Web</span> <span class="text-lg text-red-500">100k / page</span>
+                                <span class="text-xl">App Mobile / Web</span> <span class="text-lg text-red-500">100k /
+                                    page</span>
                             </li>
                             <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">App + Dokumen</span> <span class="text-lg text-red-500">200k / page</span>
+                                <span class="text-xl">App + Dokumen</span> <span class="text-lg text-red-500">200k /
+                                    page</span>
                             </li>
                         </ul>
                     </div>
@@ -247,7 +259,7 @@
                     <div class="text-center md:text-left"><span class="font-pixel text-lg text-navy block">STARTS
                             FROM:</span><span class="font-pixel text-4xl font-bold text-navy">Rp 10.000</span>
                     </div>
-                    <a href="https://wa.me/628xxxxxxx?text=Halo%20anno.tech%2C%20saya%20tertarik%20Design%2FWeb%2FApp"
+                    <a href="https://wa.me/6285117776959?text=Halo%20anno.tech%2C%20saya%20tertarik%20Design%2FWeb%2FApp"
                         target="_blank"
                         class="bg-navy text-white font-pixel text-xl px-6 py-2 border-2 border-navy hover:bg-cream hover:text-navy transition-all">Consult_Now_></a>
                 </div>
@@ -296,7 +308,7 @@
                     <div class="text-center md:text-left"><span class="font-pixel text-lg text-navy block">STARTS
                             FROM:</span><span class="font-pixel text-4xl font-bold text-navy">Rp 300k</span>
                     </div>
-                    <a href="https://wa.me/628xxxxxxx?text=Halo%20anno.tech%2C%20saya%20butuh%20jasa%20AI/Data"
+                    <a href="https://wa.me/6285117776959?text=Halo%20anno.tech%2C%20saya%20butuh%20jasa%20AI/Data"
                         target="_blank"
                         class="bg-navy text-white font-pixel text-xl px-6 py-2 border-2 border-navy hover:bg-cream hover:text-navy transition-all">Consult_Now_></a>
                 </div>
@@ -365,7 +377,7 @@
                     class="bg-navy text-cream border-2 border-dashed border-periwinkle p-4 flex flex-col md:flex-row justify-between items-center gap-4">
                     <div class="text-center md:text-left"><span class="font-pixel text-lg text-softblue block">STARTS
                             FROM:</span><span class="font-pixel text-4xl font-bold">Rp 75k</span></div>
-                    <a href="https://wa.me/628xxxxxxx?text=Halo%20anno.tech%2C%20bantu%20Skripsi%20saya%20dong"
+                    <a href="https://wa.me/6285117776959?text=Halo%20anno.tech%2C%20bantu%20Skripsi%20saya%20dong"
                         target="_blank"
                         class="bg-cream text-navy font-pixel text-xl px-6 py-2 border-2 border-white hover:bg-periwinkle hover:text-white transition-all">SOS_Help_></a>
                 </div>

@@ -28,7 +28,7 @@
                     class="absolute left-0 bottom-0 w-0 h-[3px] border-b-2 border-dotted border-periwinkle transition-all group-hover/link:w-full"></span>
             </a>
 
-            <a href="https://wa.me/628xxxxxxx" target="_blank"
+            <a href="https://wa.me/6285117776959" target="_blank"
                 class="bg-navy text-white px-6 py-2 rounded-lg border-2 border-navy hover:bg-cream hover:text-navy hover:shadow-[3px_3px_0_#A9B5DF] transition-all transform active:translate-y-[1px] active:shadow-none flex items-center gap-2 text-lg">
                 Chat_WhatsApp <span class="hidden lg:inline">_></span>
             </a>
@@ -61,7 +61,7 @@
                 > About_
             </a>
 
-            <a href="https://wa.me/628xxxxxxx" target="_blank"
+            <a href="https://wa.me/6285117776959" target="_blank"
                 class="bg-navy text-white text-center py-3 rounded-lg border-2 border-navy hover:bg-periwinkle active:scale-95 transition-all">
                 Start_Project_WhatsApp_>
             </a>
