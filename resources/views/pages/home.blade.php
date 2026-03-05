@@ -177,6 +177,277 @@
         </div>
     </section>
 
+    <!-- SECTION ABOUT US -->
+    <section id="about" class="py-24 relative overflow-hidden bg-softblue/30">
+        <div class="max-w-4xl mx-auto px-6" data-tilt data-tilt-max="2">
+            <div class="bg-cream border-4 border-navy shadow-[12px_12px_0_#2D336B] relative z-10">
+                <!-- Window Header -->
+                <div class="bg-navy p-2 flex justify-between items-center border-b-4 border-navy">
+                    <div class="text-white font-pixel text-xl flex gap-2">
+                        <span>📄</span> readme.txt - Notepad
+                    </div>
+                    <div class="flex gap-1">
+                        <div
+                            class="w-6 h-6 bg-cream border-2 border-white flex items-center justify-center font-bold text-navy cursor-pointer hover:bg-red-400">
+                            _</div>
+                        <div
+                            class="w-6 h-6 bg-cream border-2 border-white flex items-center justify-center font-bold text-navy cursor-pointer hover:bg-red-400">
+                            □</div>
+                        <div
+                            class="w-6 h-6 bg-cream border-2 border-white flex items-center justify-center font-bold text-navy cursor-pointer hover:bg-red-500">
+                            X</div>
+                    </div>
+                </div>
+                <!-- Window Content -->
+                <div class="p-8 md:p-12 font-body text-lg text-navy leading-relaxed bg-white">
+                    <p class="font-pixel text-2xl mb-6 border-b-2 border-dashed border-navy/30 pb-4">Hello, World! Welcome
+                        to <span class="text-periwinkle">anno.tech</span></p>
+                    <p class="mb-4">Kami adalah digital agency spesialis dalam Web Development, Data Science/AI, dan
+                        Academic Assistance (Skripsi Rescue) yang dibumbui dengan estetika retro nostalgia.</p>
+                    <p class="mb-4">Di anno.tech, kami percaya teknologi harus bisa menjawab masalah kompleks dengan solusi
+                        simpel, elegan, dan pastinya <span class="font-bold underline text-red-500">bebas dari bugs</span>.
+                    </p>
+                    <p>Mari berkolaborasi dan wujudkan project impian Anda menjadi kenyataan, pixel by pixel.</p>
+
+                    <div class="mt-8 font-pixel text-navy/60 text-sm">
+                        > END OF FILE.<br>
+                        > Press ESC to continue...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION SHOWCASE -->
+    <section id="showcase" class="py-24 relative overflow-hidden bg-white/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-end gap-4 mb-12 border-b-4 border-navy pb-4">
+                <h2 class="font-pixel text-5xl md:text-6xl text-navy">C:\SHOWCASE></h2>
+                <span class="font-pixel text-2xl text-periwinkle animate-pulse">_</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+                <!-- Portfolio 1 -->
+                <div class="group relative" data-tilt data-tilt-max="5">
+                    <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-3 translate-y-3"></div>
+                    <div
+                        class="relative bg-cream border-4 border-navy p-4 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div
+                            class="bg-softblue border-2 border-navy h-48 mb-4 shadow-inner flex items-center justify-center overflow-hidden">
+                            <span class="text-6xl">🎨</span>
+                        </div>
+                        <h3 class="font-pixel text-2xl text-navy mb-2">Company Profile Web</h3>
+                        <p class="font-body text-navy/80 text-sm">Website modern & interaktif untuk corporate client.</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio 2 -->
+                <div class="group relative" data-tilt data-tilt-max="5">
+                    <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-3 translate-y-3"></div>
+                    <div
+                        class="relative bg-cream border-4 border-navy p-4 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div
+                            class="bg-navy border-2 border-navy h-48 mb-4 shadow-inner flex items-center justify-center overflow-hidden">
+                            <span class="text-6xl">🤖</span>
+                        </div>
+                        <h3 class="font-pixel text-2xl text-navy mb-2">AI Face Recognition</h3>
+                        <p class="font-body text-navy/80 text-sm">Sistem absensi cerdas berbasis Machine Learning & OpenCV.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Portfolio 3 -->
+                <div class="group relative" data-tilt data-tilt-max="5">
+                    <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-3 translate-y-3"></div>
+                    <div
+                        class="relative bg-cream border-4 border-navy p-4 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div
+                            class="bg-red-500 border-2 border-navy h-48 mb-4 shadow-inner flex items-center justify-center overflow-hidden">
+                            <span class="text-6xl">📱</span>
+                        </div>
+                        <h3 class="font-pixel text-2xl text-navy mb-2">Finance Mobile App</h3>
+                        <p class="font-body text-navy/80 text-sm">Aplikasi manajemen finansial pribadi di Android/iOS.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <button
+                    class="bg-navy text-white font-pixel text-xl px-8 py-3 border-4 border-navy shadow-[6px_6px_0_#A9B5DF] hover:translate-y-1 hover:translate-x-1 hover:shadow-none transition-all active:translate-y-2 active:translate-x-2 active:shadow-none">LOAD_MORE_>></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION WORKFLOW -->
+    <section id="workflow" class="py-24 relative overflow-hidden bg-softblue/30">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="bg-navy border-4 border-navy shadow-[12px_12px_0_#2D336B] p-6 md:p-10 relative">
+                <!-- Mac-like Terminal Header -->
+                <div class="absolute top-0 left-0 w-full h-8 bg-cream border-b-4 border-navy flex items-center px-4 gap-2">
+                    <div class="w-3 h-3 bg-red-500 border-2 border-navy"></div>
+                    <div class="w-3 h-3 bg-yellow-400 border-2 border-navy"></div>
+                    <div class="w-3 h-3 bg-green-500 border-2 border-navy"></div>
+                    <span class="ml-4 font-pixel text-sm text-navy uppercase">terminal@anno.tech: ~</span>
+                </div>
+
+                <div class="mt-8 text-white space-y-8">
+                    <!-- Step 1 -->
+                    <div class="flex items-start gap-4">
+                        <span class="text-green-400 font-pixel text-xl md:text-2xl mt-1">></span>
+                        <div class="w-full">
+                            <span class="font-pixel text-xl md:text-2xl text-periwinkle font-bold">./install_project.sh
+                                --step 1_Diskusi</span>
+                            <p class="font-body text-cream/80 mt-2 text-lg">Menganalisis kebutuhan, timeline, dan budget via
+                                chat atau meeting.</p>
+                            <div class="w-full bg-navy border-2 border-white/20 h-4 mt-3">
+                                <div class="bg-green-400 h-full w-1/4"></div>
+                            </div>
+                            <span class="font-pixel text-xs text-green-400 mt-1 block">Progress: 25%</span>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="flex items-start gap-4">
+                        <span class="text-green-400 font-pixel text-xl md:text-2xl mt-1">></span>
+                        <div class="w-full">
+                            <span class="font-pixel text-xl md:text-2xl text-yellow-400 font-bold">npm run
+                                build_and_code</span>
+                            <p class="font-body text-cream/80 mt-2 text-lg">Proses development (Coding, Design, AI Training)
+                                dimulai sesuai blueprint.</p>
+                            <div class="w-full bg-navy border-2 border-white/20 h-4 mt-3">
+                                <div class="bg-yellow-400 h-full w-2/4"></div>
+                            </div>
+                            <span class="font-pixel text-xs text-yellow-400 mt-1 block">Progress: 50%</span>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="flex items-start gap-4">
+                        <span class="text-green-400 font-pixel text-xl md:text-2xl mt-1">></span>
+                        <div class="w-full">
+                            <span class="font-pixel text-xl md:text-2xl text-red-400 font-bold">git commit -m
+                                "Revisi_&_QA"</span>
+                            <p class="font-body text-cream/80 mt-2 text-lg">Pengecekan kualitas, testing, dan revisi dari
+                                Anda hingga sempurna.</p>
+                            <div class="w-full bg-navy border-2 border-white/20 h-4 mt-3">
+                                <div class="bg-red-400 h-full w-3/4"></div>
+                            </div>
+                            <span class="font-pixel text-xs text-red-400 mt-1 block">Progress: 75%</span>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="flex items-start gap-4">
+                        <span class="text-green-400 font-pixel text-xl md:text-2xl mt-1">></span>
+                        <div class="w-full">
+                            <span
+                                class="font-pixel text-xl md:text-2xl text-white font-bold">System.Success("PROJECT_SELESAI")</span>
+                            <p class="font-body text-cream/80 mt-2 text-lg">Penyerahan hasil akhir (source code/app) beserta
+                                dokumentasi.</p>
+                            <div class="w-full bg-navy border-2 border-white/20 h-4 mt-3">
+                                <div class="bg-white h-full w-full"></div>
+                            </div>
+                            <span class="font-pixel text-xs text-white mt-1 block">Progress: 100% [DONE]</span>
+                        </div>
+                    </div>
+
+                    <div class="font-pixel text-xl text-green-400 mt-6 animate-pulse">_</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION FAQ -->
+    <section id="faq" class="py-24 relative overflow-hidden bg-white/50">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2
+                    class="font-pixel text-4xl md:text-6xl text-navy inline-block bg-cream border-4 border-navy px-6 py-3 shadow-[8px_8px_0_#A9B5DF] transform -rotate-1">
+                    FAQ.INI</h2>
+            </div>
+
+            <div class="space-y-6 accordion-container">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item group">
+                    <button
+                        class="w-full flex justify-between items-center text-left bg-navy text-white font-pixel text-xl md:text-2xl p-4 border-4 border-navy hover:bg-periwinkle transition-colors focus:outline-none">
+                        <span>> Berapa lama proses pengerjaannya?</span>
+                        <span class="icon text-3xl font-bold">+</span>
+                    </button>
+                    <div
+                        class="faq-content hidden bg-cream border-x-4 border-b-4 border-navy p-6 font-body text-lg text-navy">
+                        Tergantung kompleksitas project. Untuk website sederhana biasanya 3-7 hari. Project aplikasi atau AI
+                        bisa memakan waktu 2-4 minggu. Kami selalu mengedepankan kualitas dan ketepatan waktu.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item group">
+                    <button
+                        class="w-full flex justify-between items-center text-left bg-navy text-white font-pixel text-xl md:text-2xl p-4 border-4 border-navy hover:bg-periwinkle transition-colors focus:outline-none">
+                        <span>> Apakah ada garansi / revisi?</span>
+                        <span class="icon text-3xl font-bold">+</span>
+                    </button>
+                    <div
+                        class="faq-content hidden bg-cream border-x-4 border-b-4 border-navy p-6 font-body text-lg text-navy">
+                        Tentu! Kami menyediakan masa revisi minor gratis setelah project diserahkan. Kami juga memberikan
+                        garansi bug-fix selama periode tertentu sesuai kesepakatan awal.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item group">
+                    <button
+                        class="w-full flex justify-between items-center text-left bg-navy text-white font-pixel text-xl md:text-2xl p-4 border-4 border-navy hover:bg-periwinkle transition-colors focus:outline-none">
+                        <span>> Bagaimana sistem pembayarannya?</span>
+                        <span class="icon text-3xl font-bold">+</span>
+                    </button>
+                    <div
+                        class="faq-content hidden bg-cream border-x-4 border-b-4 border-navy p-6 font-body text-lg text-navy">
+                        Kami menerapkan sistem DP (Down Payment) minimal 50% di awal sebelum project dikerjakan. Sisanya
+                        dibayarkan setelah project selesai dan disetujui, sebelum penyerahan source code.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ORDER -->
+    <section id="order" class="py-24 relative overflow-hidden bg-navy text-cream border-t-8 border-periwinkle">
+        <!-- Retro Grid Background overlay -->
+        <div class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/graphy.png')]"></div>
+
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10" data-tilt data-tilt-max="3">
+            <div class="bg-cream border-4 border-navy p-10 md:p-16 shadow-[16px_16px_0_#2D336B] border-solid relative">
+                <div
+                    class="absolute -top-6 -right-6 bg-red-500 text-white font-pixel px-4 py-2 border-2 border-navy shadow-[4px_4px_0_#000] rotate-12 z-20 animate-pulse">
+                    LET'S CONNECT!
+                </div>
+                <h2 class="font-pixel text-4xl md:text-6xl text-navy mb-6 leading-tight">READY TO PUSH<br><span
+                        class="text-white bg-navy px-4 mt-2 inline-block">START?</span></h2>
+                <p class="font-body text-xl text-navy/80 mb-10 max-w-2xl mx-auto">Tinggalkan metode lama yang lambat. Bangun
+                    produk digital Anda dengan cepat, elegan, dan tanpa pusing mikirin error. Chat kami sekarang!</p>
+
+                <a href="https://wa.me/6285117776959?text=Halo%20anno.tech%2C%20saya%20ingin%20konsultasi%20project%20dong"
+                    target="_blank" class="inline-block group relative focus:outline-none">
+                    <span
+                        class="absolute inset-0 bg-navy translate-x-3 translate-y-3 transition-transform group-hover:translate-x-4 group-hover:translate-y-4"></span>
+                    <span
+                        class="absolute inset-0 bg-periwinkle translate-x-1.5 translate-y-1.5 transition-transform group-hover:translate-x-2 group-hover:translate-y-2"></span>
+                    <span
+                        class="relative border-4 border-navy bg-white px-8 md:px-12 py-4 md:py-6 font-pixel text-xl md:text-3xl font-bold uppercase tracking-widest text-navy transition-transform group-hover:-translate-y-1 group-hover:-translate-x-1 flex items-center justify-center gap-4">
+                        <span class="text-3xl animate-bounce">💬</span>
+                        CONNECT_WHATSAPP
+                    </span>
+                </a>
+            </div>
+
+            <div class="mt-16 font-pixel text-cream/50 text-sm tracking-widest uppercase">
+                SYSTEM SHUTDOWN IN 3... 2... 1...
+            </div>
+        </div>
+    </section>
+
     <div id="modal-web"
         class="fixed inset-0 z-[100] hidden items-center justify-center bg-navy/80 backdrop-blur-sm p-4 transition-all opacity-0">
         <div
@@ -439,5 +710,24 @@
                 closeModal(event.target.id);
             }
         }
+
+        // 4. FAQ ACCORDION LOGIC
+        document.querySelectorAll('.faq-item button').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('.icon');
+
+                // Toggle current FAQ
+                if (content.classList.contains('hidden')) {
+                    content.classList.remove('hidden');
+                    icon.textContent = '-';
+                    button.classList.add('bg-periwinkle');
+                } else {
+                    content.classList.add('hidden');
+                    icon.textContent = '+';
+                    button.classList.remove('bg-periwinkle');
+                }
+            });
+        });
     </script>
 @endpush

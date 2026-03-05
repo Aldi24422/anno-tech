@@ -16,21 +16,39 @@
         </a>
 
         <div class="hidden md:flex items-center gap-8 font-pixel text-xl text-navy">
+            <a href="{{ url('/') }}#about" class="relative group/link py-1 hover:text-periwinkle transition-colors">
+                About_
+                <span
+                    class="absolute left-0 bottom-0 w-0 h-[3px] border-b-2 border-dotted border-periwinkle transition-all group-hover/link:w-full"></span>
+            </a>
+
             <a href="{{ url('/') }}#services" class="relative group/link py-1 hover:text-periwinkle transition-colors">
                 Services_
                 <span
                     class="absolute left-0 bottom-0 w-0 h-[3px] border-b-2 border-dotted border-periwinkle transition-all group-hover/link:w-full"></span>
             </a>
 
-            <a href="{{ url('/about') }}" class="relative group/link py-1 hover:text-periwinkle transition-colors">
-                About_
+            <a href="{{ url('/') }}#showcase" class="relative group/link py-1 hover:text-periwinkle transition-colors">
+                Showcase_
                 <span
                     class="absolute left-0 bottom-0 w-0 h-[3px] border-b-2 border-dotted border-periwinkle transition-all group-hover/link:w-full"></span>
             </a>
 
-            <a href="https://wa.me/6285117776959" target="_blank"
+            <a href="{{ url('/') }}#workflow" class="relative group/link py-1 hover:text-periwinkle transition-colors">
+                Workflow_
+                <span
+                    class="absolute left-0 bottom-0 w-0 h-[3px] border-b-2 border-dotted border-periwinkle transition-all group-hover/link:w-full"></span>
+            </a>
+
+            <a href="{{ url('/') }}#faq" class="relative group/link py-1 hover:text-periwinkle transition-colors">
+                FAQ_
+                <span
+                    class="absolute left-0 bottom-0 w-0 h-[3px] border-b-2 border-dotted border-periwinkle transition-all group-hover/link:w-full"></span>
+            </a>
+
+            <a href="{{ url('/') }}#order"
                 class="bg-navy text-white px-6 py-2 rounded-lg border-2 border-navy hover:bg-cream hover:text-navy hover:shadow-[3px_3px_0_#A9B5DF] transition-all transform active:translate-y-[1px] active:shadow-none flex items-center gap-2 text-lg">
-                Chat_WhatsApp <span class="hidden lg:inline">_></span>
+                Order_Now <span class="hidden lg:inline">_></span>
             </a>
         </div>
 
@@ -51,19 +69,34 @@
         <div
             class="bg-cream border-4 border-navy shadow-[6px_6px_0_rgba(45,51,107,0.3)] rounded-xl p-4 flex flex-col gap-4 font-pixel text-xl text-navy">
 
+            <a href="{{ url('/') }}#about" onclick="toggleMobileMenu()"
+                class="block border-b-2 border-dashed border-navy/20 pb-2 hover:text-periwinkle hover:pl-2 transition-all">
+                > About_
+            </a>
+
             <a href="{{ url('/') }}#services" onclick="toggleMobileMenu()"
                 class="block border-b-2 border-dashed border-navy/20 pb-2 hover:text-periwinkle hover:pl-2 transition-all">
                 > Services_
             </a>
 
-            <a href="{{ url('/about') }}" onclick="toggleMobileMenu()"
+            <a href="{{ url('/') }}#showcase" onclick="toggleMobileMenu()"
                 class="block border-b-2 border-dashed border-navy/20 pb-2 hover:text-periwinkle hover:pl-2 transition-all">
-                > About_
+                > Showcase_
             </a>
 
-            <a href="https://wa.me/6285117776959" target="_blank"
+            <a href="{{ url('/') }}#workflow" onclick="toggleMobileMenu()"
+                class="block border-b-2 border-dashed border-navy/20 pb-2 hover:text-periwinkle hover:pl-2 transition-all">
+                > Workflow_
+            </a>
+
+            <a href="{{ url('/') }}#faq" onclick="toggleMobileMenu()"
+                class="block border-b-2 border-dashed border-navy/20 pb-2 hover:text-periwinkle hover:pl-2 transition-all">
+                > FAQ_
+            </a>
+
+            <a href="{{ url('/') }}#order" onclick="toggleMobileMenu()"
                 class="bg-navy text-white text-center py-3 rounded-lg border-2 border-navy hover:bg-periwinkle active:scale-95 transition-all">
-                Start_Project_WhatsApp_>
+                Order_Now_>
             </a>
         </div>
     </div>
