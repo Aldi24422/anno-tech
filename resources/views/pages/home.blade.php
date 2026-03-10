@@ -110,69 +110,60 @@
         </div>
     </div>
 
-    <section id="services" class="py-24 relative overflow-hidden bg-white/50">
+                        <section id="services" class="py-24 relative overflow-hidden bg-white/50">
         <div class="max-w-7xl mx-auto px-6">
             <div class="flex items-end gap-4 mb-12 border-b-4 border-navy pb-4">
                 <h2 class="font-pixel text-5xl md:text-6xl text-navy">C:\SERVICES></h2>
                 <span class="font-pixel text-2xl text-periwinkle animate-pulse">_</span>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
 
+                <!-- Service 1: Academic & Skripsi -->
                 <div class="group relative" data-tilt>
-                    <div class="absolute top-0 left-0 w-full h-full bg-navy translate-x-4 translate-y-4"></div>
-                    <div
-                        class="relative bg-cream border-4 border-navy p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
-                        <div
-                            class="bg-softblue w-16 h-16 border-2 border-navy flex items-center justify-center text-3xl mb-4 shadow-[4px_4px_0_#2D336B]">
-                            🎨</div>
-                        <h3 class="font-pixel text-4xl mb-4 text-navy">DESIGN & DEV</h3>
-                        <p class="font-body text-navy/80 mb-6 flex-grow border-l-4 border-periwinkle pl-4">One Stop
-                            Solution:
-                            Desain Grafis, Website, hingga Aplikasi Mobile.</p>
-                        <button onclick="openModal('modal-web')"
-                            class="font-pixel text-xl text-right hover:text-periwinkle block mt-auto w-full text-left">
-                            Details_>>>
-                        </button>
+                    <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-3 translate-y-3"></div>
+                    <div class="relative bg-navy border-4 border-navy p-5 md:p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div class="absolute -top-5 -right-5 bg-red-500 text-white font-pixel text-base px-3 py-1 border-2 border-navy shadow-[4px_4px_0_#000] rotate-12 z-20">BEST SELLER!</div>
+                        <div class="bg-cream w-16 h-16 border-4 border-white flex items-center justify-center text-3xl mb-5 shadow-[4px_4px_0_#A9B5DF]">🎓</div>
+                        <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-cream leading-snug">ACADEMIC & SKRIPSI</h3>
+                        <p class="font-body text-base lg:text-lg text-softblue mb-6 flex-grow border-l-4 border-cream pl-3 leading-relaxed">Paket Penyelamat Semester Akhir. Skripsi Error, Dosen Teror? anno.tech Siap Jadi Eksekutor!</p>
+                        <button onclick="openModal('modal-skripsi')" class="font-pixel text-xl text-right text-cream hover:text-softblue block mt-auto w-full text-left transition-colors">Details_>>></button>
                     </div>
                 </div>
 
+                <!-- Service 2: Web-Apps Dev -->
                 <div class="group relative" data-tilt>
-                    <div class="absolute top-0 left-0 w-full h-full bg-navy translate-x-4 translate-y-4"></div>
-                    <div
-                        class="relative bg-cream border-4 border-navy p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
-                        <div
-                            class="bg-softblue w-16 h-16 border-2 border-navy flex items-center justify-center text-3xl mb-4 shadow-[4px_4px_0_#2D336B]">
-                            🤖</div>
-                        <h3 class="font-pixel text-4xl mb-4 text-navy">AI & DATA</h3>
-                        <p class="font-body text-navy/80 mb-6 flex-grow border-l-4 border-periwinkle pl-4">Biarkan data yang
-                            bicara. Machine Learning, Python Analysis, hingga Deep Learning.</p>
-                        <button onclick="openModal('modal-ai')"
-                            class="font-pixel text-xl text-right hover:text-periwinkle block mt-auto w-full text-left">
-                            Details_>>>
-                        </button>
+                    <div class="absolute top-0 left-0 w-full h-full bg-navy translate-x-3 translate-y-3"></div>
+                    <div class="relative bg-cream border-4 border-navy p-5 md:p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div class="bg-softblue w-16 h-16 border-4 border-navy flex items-center justify-center text-3xl mb-5 shadow-[4px_4px_0_#2D336B]">💻</div>
+                        <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-navy leading-snug">WEB-APPS DEV</h3>
+                        <p class="font-body text-base lg:text-lg text-navy/80 mb-6 flex-grow border-l-4 border-periwinkle pl-3 leading-relaxed">Landing Page, Web Dinamis (CMS), hingga Custom Web App Kasir / E-Commerce.</p>
+                        <button onclick="openModal('modal-webapp')" class="font-pixel text-xl text-right hover:text-periwinkle block mt-auto w-full text-left transition-colors">Details_>>></button>
                     </div>
                 </div>
 
+                <!-- Service 3: Web-Profile -->
                 <div class="group relative" data-tilt>
-                    <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-4 translate-y-4"></div>
-                    <div
-                        class="relative bg-navy border-4 border-navy p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
-                        <div
-                            class="absolute -top-6 -right-6 bg-red-500 text-white font-pixel px-4 py-2 border-2 border-navy shadow-[4px_4px_0_#000] rotate-12 z-20">
-                            BEST SELLER!</div>
-                        <div
-                            class="bg-cream w-16 h-16 border-2 border-white flex items-center justify-center text-3xl mb-4 shadow-[4px_4px_0_#A9B5DF]">
-                            🎓</div>
-                        <h3 class="font-pixel text-4xl mb-4 text-cream">SKRIPSI_KIT</h3>
-                        <p class="font-body text-softblue mb-6 flex-grow border-l-4 border-cream pl-4">Paket Penyelamat
-                            Semester Akhir. Judul, App, Dokumen Bab 1-5. Terima Beres & Paham.</p>
-                        <button onclick="openModal('modal-skripsi')"
-                            class="font-pixel text-xl text-right text-cream hover:text-softblue block mt-auto w-full text-left">
-                            Order_Now_>>>
-                        </button>
+                    <div class="absolute top-0 left-0 w-full h-full bg-navy translate-x-3 translate-y-3"></div>
+                    <div class="relative bg-cream border-4 border-navy p-5 md:p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div class="bg-softblue w-16 h-16 border-4 border-navy flex items-center justify-center text-3xl mb-5 shadow-[4px_4px_0_#2D336B]">👤</div>
+                        <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-navy leading-snug">WEB-PROFILE</h3>
+                        <p class="font-body text-base lg:text-lg text-navy/80 mb-6 flex-grow border-l-4 border-periwinkle pl-3 leading-relaxed">Identitas digital satu halaman, Portfolio dinamis, Memory web khusus momen spesial.</p>
+                        <button onclick="openModal('modal-webprofile')" class="font-pixel text-xl text-right hover:text-periwinkle block mt-auto w-full text-left transition-colors">Details_>>></button>
                     </div>
                 </div>
+
+                <!-- Service 4: Invitation Wedding -->
+                <div class="group relative" data-tilt>
+                    <div class="absolute top-0 left-0 w-full h-full bg-navy translate-x-3 translate-y-3"></div>
+                    <div class="relative bg-cream border-4 border-navy p-5 md:p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div class="bg-softblue w-16 h-16 border-4 border-navy flex items-center justify-center text-3xl mb-5 shadow-[4px_4px_0_#2D336B]">💍</div>
+                        <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-navy leading-snug">INVITATION WEDDING</h3>
+                        <p class="font-body text-base lg:text-lg text-navy/80 mb-6 flex-grow border-l-4 border-periwinkle pl-3 leading-relaxed">Undangan Digital Elegan dengan fitur RSVP, Musik, Amplop Digital & Navigasi Maps.</p>
+                        <button onclick="openModal('modal-wedding')" class="font-pixel text-xl text-right hover:text-periwinkle block mt-auto w-full text-left transition-colors">Details_>>></button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -448,209 +439,289 @@
         </div>
     </section>
 
-    <div id="modal-web"
-        class="fixed inset-0 z-[100] hidden items-center justify-center bg-navy/80 backdrop-blur-sm p-4 transition-all opacity-0">
-        <div
-            class="bg-cream border-4 border-navy shadow-[10px_10px_0_#2D336B] w-full max-w-2xl transform scale-90 transition-all duration-300 relative">
-            <div class="bg-navy p-2 flex justify-between items-center text-white font-pixel text-xl">
-                <span class="flex items-center gap-2">🎨 DESIGN_WEB_APP.EXE</span>
-                <button onclick="closeModal('modal-web')"
-                    class="bg-red-500 w-8 h-8 border-2 border-white flex items-center justify-center hover:bg-red-600">X</button>
+                <!-- MODAL SKRIPSI -->
+    <div id="modal-skripsi" class="fixed inset-0 z-[100] hidden items-center justify-center bg-navy/80 backdrop-blur-sm p-4 transition-all opacity-0">
+        <div class="bg-cream border-4 border-navy shadow-[10px_10px_0_#7886C7] w-full max-w-2xl transform scale-90 transition-all duration-300 relative">
+            <div class="bg-periwinkle p-2 flex justify-between items-center text-white font-pixel text-xl border-b-4 border-navy">
+                <span class="flex items-center gap-2">🎓 ACADEMIC_SKRIPSI.ZIP</span>
+                <button onclick="closeModal('modal-skripsi')" class="bg-red-500 w-8 h-8 border-2 border-white flex items-center justify-center hover:bg-red-600 focus:outline-none">X</button>
             </div>
-            <div class="p-6 md:p-8 overflow-y-auto max-h-[80vh]">
-                <h3 class="font-pixel text-4xl text-navy mb-2">Design, Web & Apps</h3>
-                <p class="font-body text-navy/70 mb-6 italic border-b-2 border-navy/20 pb-4">"Visual memukau & sistem
-                    handal. No bugs allowed."</p>
+            <div class="p-6 md:p-8 overflow-y-auto max-h-[85vh]">
+                <h3 class="font-pixel text-3xl md:text-4xl text-navy mb-2 leading-tight">Academic & Skripsi</h3>
+                <p class="font-body text-lg text-navy/80 mb-6 italic border-b-2 border-navy/20 pb-4">"Skripsi Error, Dosen Teror? anno.tech Siap Jadi Eksekutor!"</p>
+
+                <div class="bg-cream border-2 border-dashed border-red-500 p-4 mb-6 flex items-start gap-3">
+                    <span class="text-2xl animate-pulse mt-1">⚠️</span>
+                    <div class="font-pixel text-red-500 text-sm tracking-wide leading-relaxed">
+                        <b class="underline text-base mb-1 block">SYSTEM_RULE:</b>
+                        "Tersedia berbagai platform: Web (Laravel/PHP), Mobile Apps (Flutter/Android), hingga Machine Learning & Data Science (Python)."
+                    </div>
+                </div>
 
                 <div class="space-y-6 mb-8">
-                    <!-- SECTION DESAIN -->
+                    <!-- Paket Code.exe -->
                     <div>
-                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3">1. DESAIN
-                            GRAFIS
-                        </h4>
-                        <ul class="space-y-3 text-navy font-pixel tracking-wide">
-                            <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">Logo / Stiker Produk</span> <span class="text-lg text-red-500">Start
-                                    20k</span>
-                            </li>
-                            <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">Poster / PPT</span> <span class="text-lg text-red-500">Start
-                                    10k</span>
-                            </li>
-                            <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">UI/UX (App / Web)</span> <span class="text-lg text-red-500">50k /
-                                    page</span>
-                            </li>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3 border-2 border-navy">1. Paket Code.exe</h4>
+                        <ul class="space-y-2 text-navy font-pixel tracking-wide text-sm md:text-base mb-2 ml-2">
+                            <li>> Free konsultasi</li>
+                            <li>> Full Source Code</li>
+                            <li>> Database lengkap</li>
+                            <li>> Bantuan instalasi (Localhost)</li>
                         </ul>
+                        <p class="font-pixel text-xl text-red-500 font-bold ml-2">Start From IDR 1JT</p>
                     </div>
-
-                    <!-- SECTION WEBSITE -->
+                    <!-- Paket Sempro.rar -->
                     <div>
-                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3">2. WEBSITE
-                        </h4>
-                        <ul class="space-y-3 text-navy font-pixel tracking-wide">
-                            <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">Undangan Digital</span> <span class="text-lg text-red-500">Start
-                                    30k</span>
-                            </li>
-                            <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">Portfolio Web</span> <span class="text-lg text-red-500">30k -
-                                    100k</span>
-                            </li>
-                            <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">Company Profile</span> <span class="text-lg text-red-500">Start
-                                    1.000k</span>
-                            </li>
-                            <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">Katalog / Olshop</span> <span class="text-lg text-red-500">Start
-                                    1.000k</span>
-                            </li>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3 border-2 border-navy">2. Paket Sempro.rar</h4>
+                        <ul class="space-y-2 text-navy font-pixel tracking-wide text-sm md:text-base mb-2 ml-2">
+                            <li>> Semua fitur di Code.exe</li>
+                            <li>> Penyusunan Bab 1, 2, 3</li>
+                            <li>> Pembuatan PPT Sempro</li>
                         </ul>
+                        <p class="font-pixel text-xl text-red-500 font-bold ml-2">Start From IDR 1.5JT</p>
                     </div>
-
-                    <!-- SECTION APLIKASI -->
+                    <!-- Paket Sidang.bat -->
                     <div>
-                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3">3. APLIKASI
-                        </h4>
-                        <ul class="space-y-3 text-navy font-pixel tracking-wide">
-                            <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">App Mobile / Web</span> <span class="text-lg text-red-500">100k /
-                                    page</span>
-                            </li>
-                            <li class="flex justify-between border-b-2 border-navy/10 pb-1 items-end">
-                                <span class="text-xl">App + Dokumen</span> <span class="text-lg text-red-500">200k /
-                                    page</span>
-                            </li>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3 border-2 border-navy">3. Paket Sidang.bat</h4>
+                        <ul class="space-y-2 text-navy font-pixel tracking-wide text-sm md:text-base mb-2 ml-2">
+                            <li>> Semua fitur di Sempro.rar</li>
+                            <li>> Penyusunan Bab 4, 5</li>
+                            <li>> User Manual</li>
                         </ul>
+                        <p class="font-pixel text-xl text-red-500 font-bold ml-2">Start From IDR 2JT</p>
+                    </div>
+                    <!-- Paket Wisuda.iso -->
+                    <div>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3 border-2 border-navy">4. Paket Wisuda.iso</h4>
+                        <ul class="space-y-2 text-navy font-pixel tracking-wide text-sm md:text-base mb-2 ml-2">
+                            <li>> Full Pack: Aplikasi + Skripsi Bab 1-5</li>
+                            <li>> Bantuan pembuatan Jurnal Ilmiah</li>
+                            <li>> Unlimited Revisions</li>
+                            <li>> Mentoring private</li>
+                        </ul>
+                        <p class="font-pixel text-xl text-red-500 font-bold ml-2">Start From IDR 2.5JT</p>
+                    </div>
+                    <!-- Consultation -->
+                    <div>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3 border-2 border-navy">5. Consultation Project</h4>
+                        <ul class="space-y-2 text-navy font-pixel tracking-wide text-sm md:text-base mb-2 ml-2">
+                            <li>> Debugging & Error Solving</li>
+                            <li>> Diskusi Tech Stack / Judul Skripsi</li>
+                            <li>> Pengerjaan Tubes (Tugas Besar)</li>
+                            <li>> UI/UX & Database Design</li>
+                        </ul>
+                        <p class="font-pixel text-xl text-red-500 font-bold ml-2">Start From IDR 29k</p>
                     </div>
                 </div>
 
-                <div
-                    class="bg-softblue/30 border-2 border-dashed border-navy p-4 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <div class="text-center md:text-left"><span class="font-pixel text-lg text-navy block">STARTS
-                            FROM:</span><span class="font-pixel text-4xl font-bold text-navy">Rp 10.000</span>
+                <div class="bg-navy text-cream border-2 border-dashed border-periwinkle p-4 flex flex-col md:flex-row justify-between items-center gap-4">
+                    <div class="text-center md:text-left">
+                        <span class="font-pixel text-lg text-softblue block mb-1">STARTS FROM:</span>
+                        <span class="font-pixel text-4xl font-bold">Rp 29k</span>
                     </div>
-                    <a href="https://wa.me/6285117776959?text=Halo%20anno.tech%2C%20saya%20tertarik%20Design%2FWeb%2FApp"
-                        target="_blank"
-                        class="bg-navy text-white font-pixel text-xl px-6 py-2 border-2 border-navy hover:bg-cream hover:text-navy transition-all">Consult_Now_></a>
+                    <a href="https://wa.me/6285117776959?text=Halo%20anno.tech%2C%20bantu%20project%20akademik%20saya%20dong" target="_blank" class="bg-cream text-navy font-pixel text-xl md:text-2xl px-6 py-3 border-2 border-white hover:bg-periwinkle hover:text-white transition-all transform hover:-translate-y-1 shadow-[4px_4px_0_#A9B5DF] hover:shadow-none focus:outline-none">SOS_Help_></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="modal-ai"
-        class="fixed inset-0 z-[100] hidden items-center justify-center bg-navy/80 backdrop-blur-sm p-4 transition-all opacity-0">
-        <div
-            class="bg-cream border-4 border-navy shadow-[10px_10px_0_#2D336B] w-full max-w-2xl transform scale-90 transition-all duration-300 relative">
+    <!-- MODAL WEB-APPS DEV -->
+    <div id="modal-webapp" class="fixed inset-0 z-[100] hidden items-center justify-center bg-navy/80 backdrop-blur-sm p-4 transition-all opacity-0">
+        <div class="bg-cream border-4 border-navy shadow-[10px_10px_0_#2D336B] w-full max-w-2xl transform scale-90 transition-all duration-300 relative">
             <div class="bg-navy p-2 flex justify-between items-center text-white font-pixel text-xl">
-                <span class="flex items-center gap-2">🤖 AI_DATA_ANALYSIS.EXE</span>
-                <button onclick="closeModal('modal-ai')"
-                    class="bg-red-500 w-8 h-8 border-2 border-white flex items-center justify-center hover:bg-red-600">X</button>
+                <span class="flex items-center gap-2">💻 WEB_APPS_DEV.EXE</span>
+                <button onclick="closeModal('modal-webapp')" class="bg-red-500 w-8 h-8 border-2 border-white flex items-center justify-center hover:bg-red-600 focus:outline-none">X</button>
             </div>
-            <div class="p-6 md:p-8 overflow-y-auto max-h-[80vh]">
-                <h3 class="font-pixel text-4xl text-navy mb-2">AI & Data Science</h3>
-                <p class="font-body text-navy/70 mb-6 italic border-b-2 border-navy/20 pb-4">"Mengubah data mentah menjadi
-                    keputusan cerdas."</p>
-                <div class="space-y-4 mb-8">
-                    <div class="flex items-start gap-3">
-                        <span class="text-2xl mt-1">🧠</span>
-                        <div>
-                            <h4 class="text-navy font-pixel text-xl">Project Machine Learning / AI</h4>
-                            <p class="font-pixel text-lg text-red-500">Start from Rp 300k</p>
-                        </div>
+            <div class="p-6 md:p-8 overflow-y-auto max-h-[85vh]">
+                <h3 class="font-pixel text-3xl md:text-4xl text-navy mb-2 leading-tight">Web-Apps Development</h3>
+                <p class="font-body text-lg text-navy/80 mb-6 italic border-b-2 border-navy/20 pb-4">"Membangun ekosistem digital mulai dari Landing Page hingga Custom Sistem."</p>
+
+                <div class="space-y-6 mb-8">
+                    <!-- Landing Page -->
+                    <div>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3 border-2 border-navy">1. Landing Page</h4>
+                        <p class="font-body text-base font-bold text-navy mb-2 shadow-sm border-b pb-1">Cocok untuk: Web UMKM Basic</p>
+                        <ul class="space-y-2 text-navy font-pixel tracking-wide text-sm md:text-base mb-2 ml-2">
+                            <li>> Halaman Statis (Home, About, Services, Gallery, Contact)</li>
+                            <li>> Gratis 1 Tahun domain lokal (.my.id / .biz.id)</li>
+                            <li>> Responsive Design (HP & Laptop)</li>
+                            <li>> Fee Maintenance 15 hari</li>
+                            <li>> Database + Basic SEO</li>
+                        </ul>
+                        <p class="font-pixel text-xl text-red-500 font-bold ml-2">Start From IDR 800k</p>
                     </div>
-                    <div class="flex items-start gap-3">
-                        <span class="text-2xl mt-1">📊</span>
-                        <div>
-                            <h4 class="text-navy font-pixel text-xl">Data Processing & Analysis</h4>
-                            <p class="font-pixel text-lg text-red-500">Rp 400k – Rp 1.000k</p>
-                        </div>
+
+                    <!-- Web Dinamis + CMS -->
+                    <div>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3 border-2 border-navy">2. Web Dinamis + CMS / Admin</h4>
+                        <p class="font-body text-base font-bold text-navy mb-2 shadow-sm border-b pb-1">Cocok untuk: Company Profile, Katalog Produk, Web Sekolah</p>
+                        <ul class="space-y-2 text-navy font-pixel tracking-wide text-sm md:text-base mb-2 ml-2">
+                            <li>> Halaman Front-End + Panel Admin khusus</li>
+                            <li>> Gratis 1 Tahun domain premium (.com / .net)</li>
+                            <li>> Cloud Hosting (Kapasitas ±2GB)</li>
+                            <li>> Fitur: Sistem Login Admin, CRUD Data, Form Kontak</li>
+                        </ul>
+                        <p class="font-pixel text-xl text-red-500 font-bold ml-2">Start From IDR 1.8JT</p>
                     </div>
-                    <div class="flex items-start gap-3">
-                        <span class="text-2xl mt-1">🚀</span>
-                        <div>
-                            <h4 class="text-navy font-pixel text-xl">Implementasi AI ke Web/App</h4>
-                            <p class="font-pixel text-lg text-red-500">Rp 1.000k – Rp 3.000k</p>
-                        </div>
+
+                    <!-- Custom Web App -->
+                    <div>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3 border-2 border-navy">3. Custom Web App</h4>
+                        <p class="font-body text-base font-bold text-navy mb-2 shadow-sm border-b pb-1">Cocok untuk: Sistem Kasir (POS), E-Commerce, Aplikasi Booking</p>
+                        <ul class="space-y-2 text-navy font-pixel tracking-wide text-sm md:text-base mb-2 ml-2">
+                            <li>> Pages Unlimited (Sesuai Flowchart)</li>
+                            <li>> Dedicated Support + Garansi Maintenance 2 Bulan</li>
+                            <li>> Fitur: Multi-Role User, Integrasi API (Midtrans/QRIS), Cetak PDF/Excel, Real-time Notification</li>
+                        </ul>
+                        <p class="font-pixel text-xl text-red-500 font-bold ml-2">Start From IDR 3JT</p>
+                    </div>
+
+                    <!-- Konsultasi -->
+                    <div class="flex gap-4 items-center bg-softblue/10 p-3 border-2 border-navy">
+                        <span class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg">💡 Konsultasi Tech</span>
+                        <p class="font-pixel text-xl text-red-500 font-bold">IDR 49k</p>
                     </div>
                 </div>
-                <div
-                    class="bg-softblue/30 border-2 border-dashed border-navy p-4 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <div class="text-center md:text-left"><span class="font-pixel text-lg text-navy block">STARTS
-                            FROM:</span><span class="font-pixel text-4xl font-bold text-navy">Rp 300k</span>
+
+                <div class="bg-softblue/30 border-2 border-dashed border-navy p-4 flex flex-col md:flex-row justify-between items-center gap-4">
+                    <div class="text-center md:text-left">
+                        <span class="font-pixel text-lg text-navy block mb-1">STARTS FROM:</span>
+                        <span class="font-pixel text-4xl font-bold text-navy">Rp 800k</span>
                     </div>
-                    <a href="https://wa.me/6285117776959?text=Halo%20anno.tech%2C%20saya%20butuh%20jasa%20AI/Data"
-                        target="_blank"
-                        class="bg-navy text-white font-pixel text-xl px-6 py-2 border-2 border-navy hover:bg-cream hover:text-navy transition-all">Consult_Now_></a>
+                    <a href="https://wa.me/6285117776959?text=Halo%20anno.tech%2C%20saya%20tertarik%20bikin%20Web-Apps" target="_blank" class="bg-navy text-white font-pixel text-xl md:text-2xl px-6 py-3 border-2 border-navy hover:bg-cream hover:text-navy transition-all transform hover:-translate-y-1 shadow-[4px_4px_0_#A9B5DF] hover:shadow-none focus:outline-none">Consult_Now_></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="modal-skripsi"
-        class="fixed inset-0 z-[100] hidden items-center justify-center bg-navy/80 backdrop-blur-sm p-4 transition-all opacity-0">
-        <div
-            class="bg-cream border-4 border-navy shadow-[10px_10px_0_#7886C7] w-full max-w-2xl transform scale-90 transition-all duration-300 relative">
-            <div
-                class="bg-periwinkle p-2 flex justify-between items-center text-white font-pixel text-xl border-b-4 border-navy">
-                <span class="flex items-center gap-2">🎓 FINAL_PROJECT_RESCUE.ZIP</span>
-                <button onclick="closeModal('modal-skripsi')"
-                    class="bg-red-500 w-8 h-8 border-2 border-white flex items-center justify-center hover:bg-red-600">X</button>
+    <!-- MODAL WEB-PROFILE -->
+    <div id="modal-webprofile" class="fixed inset-0 z-[100] hidden items-center justify-center bg-navy/80 backdrop-blur-sm p-4 transition-all opacity-0">
+        <div class="bg-cream border-4 border-navy shadow-[10px_10px_0_#2D336B] w-full max-w-2xl transform scale-90 transition-all duration-300 relative">
+            <div class="bg-navy p-2 flex justify-between items-center text-white font-pixel text-xl">
+                <span class="flex items-center gap-2">👤 WEB_PROFILE.HTML</span>
+                <button onclick="closeModal('modal-webprofile')" class="bg-red-500 w-8 h-8 border-2 border-white flex items-center justify-center hover:bg-red-600 focus:outline-none">X</button>
             </div>
-            <div class="p-6 md:p-8 overflow-y-auto max-h-[80vh]">
-                <h3 class="font-pixel text-4xl text-navy mb-2">Skripsi Full Kit</h3>
-                <p class="font-body text-navy/70 mb-6 italic border-b-2 border-navy/20 pb-4">"Partner terbaik biar cepat
-                    lulus tahun ini."</p>
+            <div class="p-6 md:p-8 overflow-y-auto max-h-[85vh]">
+                <h3 class="font-pixel text-3xl md:text-4xl text-navy mb-2 leading-tight">Web-Profile</h3>
+                <p class="font-body text-lg text-navy/80 mb-6 italic border-b-2 border-navy/20 pb-4">"Identitas digital profesional, elegan, dan estetik."</p>
 
-                <div class="bg-cream border-2 border-dashed border-red-500 p-3 mb-6 flex items-start gap-3">
-                    <span class="text-2xl animate-pulse">⚠️</span>
-                    <div class="font-pixel text-red-500 text-sm tracking-wide">
-                        <b class="underline">SYSTEM_RULE:</b><br>
-                        DP 50% WAJIB. HARGA MENYESUAIKAN KOMPLEKSITAS. FAST DELIVERY = EXTRA COST.
+                <div class="space-y-6 mb-8">
+                    <!-- Lite.html -->
+                    <div>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3 border-2 border-navy">1. Lite.html</h4>
+                        <p class="font-body text-base font-bold text-navy mb-2 shadow-sm border-b pb-1">Identitas digital ringan satu halaman (Web-portfolio, CV).</p>
+                        <ul class="space-y-2 text-navy font-pixel tracking-wide text-sm md:text-base mb-2 ml-2">
+                            <li>> Halaman: 1 Halaman Utama (Scroll memanjang)</li>
+                            <li>> Kapasitas Portofolio: Maks 6 karya (grid statis)</li>
+                            <li>> Animasi: Efek CSS Dasar (fade-in, hover)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Pro.php -->
+                    <div>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3 border-2 border-navy">2. Pro.php</h4>
+                        <p class="font-body text-base font-bold text-navy mb-2 shadow-sm border-b pb-1">Portofolio dinamis dengan beberapa halaman & filter kategori.</p>
+                        <ul class="space-y-2 text-navy font-pixel tracking-wide text-sm md:text-base mb-2 ml-2">
+                            <li>> Halaman: Maks 4 Halaman (Home, About, Portfolio, Contact)</li>
+                            <li>> Kapasitas Portofolio: Maks 15 karya (bisa difilter)</li>
+                            <li>> Animasi: GSAP Standar (scroll trigger, typing effect)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Memory.css -->
+                    <div>
+                        <h4 class="font-bold text-white bg-navy inline-block px-2 py-1 font-pixel text-lg mb-3 border-2 border-navy">3. Memory.css</h4>
+                        <p class="font-body text-base font-bold text-navy mb-2 shadow-sm border-b pb-1">Abadikan momen ulang tahun / hari spesial dalam wujud web interaktif.</p>
+                        <ul class="space-y-2 text-navy font-pixel tracking-wide text-sm md:text-base mb-2 ml-2">
+                            <li>> Bebas request lagu (Music Player)</li>
+                            <li>> Galeri Foto Kenangan</li>
+                            <li>> Animasi 2D Halus</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="space-y-4 mb-8">
-                    <!-- Item 1 -->
-                    <div class="flex items-start gap-3 group">
-                        <span class="text-2xl mt-1 group-hover:scale-110 transition-transform">💡</span>
-                        <div>
-                            <h4 class="text-navy font-pixel text-xl">Konsultasi Judul</h4>
-                            <p class="font-pixel text-lg text-red-500">Start Rp 75k</p>
-                        </div>
+                <div class="bg-softblue/30 border-2 border-dashed border-navy p-4 flex flex-col md:flex-row justify-between items-center gap-4">
+                    <div class="text-center md:text-left">
+                        <span class="font-pixel text-lg text-navy block mb-1">STARTS FROM:</span>
+                        <span class="font-pixel text-4xl font-bold text-navy">Rp 99k</span>
                     </div>
-                    <!-- Item 2 -->
-                    <div class="flex items-start gap-3 group">
-                        <span class="text-2xl mt-1 group-hover:scale-110 transition-transform">💻</span>
+                    <a href="https://wa.me/6285117776959?text=Halo%20anno.tech%2C%20saya%20tertarik%20bikin%20Web-Profile" target="_blank" class="bg-navy text-white font-pixel text-xl md:text-2xl px-6 py-3 border-2 border-navy hover:bg-cream hover:text-navy transition-all transform hover:-translate-y-1 shadow-[4px_4px_0_#A9B5DF] hover:shadow-none focus:outline-none">Consult_Now_></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL WEDDING -->
+    <div id="modal-wedding" class="fixed inset-0 z-[100] hidden items-center justify-center bg-navy/80 backdrop-blur-sm p-4 transition-all opacity-0">
+        <div class="bg-cream border-4 border-navy shadow-[10px_10px_0_#2D336B] w-full max-w-2xl transform scale-90 transition-all duration-300 relative">
+            <div class="bg-navy p-2 flex justify-between items-center text-white font-pixel text-xl">
+                <span class="flex items-center gap-2">💍 INVITATION_WEDDING.EXE</span>
+                <button onclick="closeModal('modal-wedding')" class="bg-red-500 w-8 h-8 border-2 border-white flex items-center justify-center hover:bg-red-600 focus:outline-none">X</button>
+            </div>
+            <div class="p-6 md:p-8 overflow-y-auto max-h-[85vh]">
+                <h3 class="font-pixel text-3xl md:text-4xl text-navy mb-2 leading-tight">Invitation Wedding</h3>
+                <p class="font-body text-lg text-navy/80 mb-6 italic border-b-2 border-navy/20 pb-4">"Sebarkan kabar bahagiamu dengan undangan digital estetis & efisien."</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 text-base font-pixel text-navy tracking-wide border-2 border-navy p-4 bg-periwinkle/20">
+                    <div class="font-bold mb-3 col-span-1 md:col-span-2 text-center border-b-2 border-navy pb-2 text-lg">✨ FITUR UMUM SEMUA PAKET:</div>
+                    <ul class="space-y-2 ml-2 text-sm md:text-base">
+                        <li>> Unlimited Tamu</li>
+                        <li>> Request BGM</li>
+                        <li>> Fitur Amplop Digital</li>
+                    </ul>
+                    <ul class="space-y-2 ml-2 text-sm md:text-base">
+                        <li>> Navigasi G-Maps</li>
+                        <li>> Countdown Time</li>
+                        <li>> Kolom Ucapan & RSVP</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-6 mb-8">
+                    <!-- Invite.basic -->
+                    <div class="flex justify-between items-center border-l-4 border-navy pl-4 py-2 bg-white border-y border-r shadow-sm hover:translate-x-1 transition-transform">
                         <div>
-                            <h4 class="text-navy font-pixel text-xl">App + Penjelasan Code</h4>
-                            <p class="font-pixel text-lg text-red-500">Rp 1.000k – 4.000k</p>
+                            <h4 class="font-bold text-navy font-pixel text-xl mb-1">1. Invite.basic</h4>
+                            <p class="font-body text-base text-navy/80">Hanya 1 Foto, Aktif 1 Bln, Max 5x Rev.</p>
                         </div>
+                        <p class="font-pixel text-2xl text-red-500 font-bold bg-cream px-3 py-1 border-2 border-navy shadow-[2px_2px_0_#2D336B] rotate-2 mr-1">50k</p>
                     </div>
-                    <!-- Item 3 -->
-                    <div class="flex items-start gap-3 group">
-                        <span class="text-2xl mt-1 group-hover:scale-110 transition-transform">📝</span>
+
+                    <!-- Invite_Lite -->
+                    <div class="flex justify-between items-center border-l-4 border-navy pl-4 py-2 bg-white border-y border-r shadow-sm hover:translate-x-1 transition-transform">
                         <div>
-                            <h4 class="text-navy font-pixel text-xl">App + Dokumen Teknis</h4>
-                            <p class="font-pixel text-lg text-red-500">Rp 1.000k – 5.000k</p>
+                            <h4 class="font-bold text-navy font-pixel text-xl mb-1">2. Invite_Lite</h4>
+                            <p class="font-body text-base text-navy/80">Galeri maks 5 foto, Aktif 2 Bln, Max 5x Rev.</p>
                         </div>
+                        <p class="font-pixel text-2xl text-red-500 font-bold bg-cream px-3 py-1 border-2 border-navy shadow-[2px_2px_0_#2D336B] -rotate-1 mr-1">60k</p>
                     </div>
-                    <!-- Item 4 -->
-                    <div class="flex items-start gap-3 group">
-                        <span class="text-2xl mt-1 group-hover:scale-110 transition-transform">📦</span>
+
+                    <!-- Invite_Pro -->
+                    <div class="flex justify-between items-center border-l-4 border-navy pl-4 py-2 bg-white border-y border-r shadow-sm hover:translate-x-1 transition-transform">
                         <div>
-                            <h4 class="text-navy font-pixel text-xl">PREMIUM FULL KIT</h4>
-                            <p class="font-pixel text-lg text-red-500">Rp 3.500k – 8.500k (All In)</p>
+                            <h4 class="font-bold text-navy font-pixel text-xl mb-1">3. Invite_Pro</h4>
+                            <p class="font-body text-base text-navy/80">Galeri maks 10 foto, Love Story, Aktif 3 Bln.</p>
                         </div>
+                        <p class="font-pixel text-2xl text-red-500 font-bold bg-cream px-3 py-1 border-2 border-navy shadow-[2px_2px_0_#2D336B] rotate-1 mr-1">80k</p>
+                    </div>
+
+                    <!-- Expansion Pack -->
+                    <div class="mt-6 bg-navy text-white p-4 font-pixel text-base border-2 border-periwinkle shadow-[4px_4px_0_#A9B5DF]">
+                        <h4 class="text-yellow-400 mb-3 text-lg border-b border-yellow-400/50 pb-1">🎁 EXPANSION PACK (ADD-ON):</h4>
+                        <ul class="space-y-2 opacity-90 ml-2 text-sm md:text-base">
+                            <li>> Foto Jadi Kartun/Vektor = <span class="text-red-400 font-bold">+5k</span></li>
+                            <li>> Tambah Slot Foto = <span class="text-red-400 font-bold">+10k/3 foto</span></li>
+                            <li>> Tambah Halaman Slide = <span class="text-red-400 font-bold">+10k/slide</span></li>
+                            <li>> Ganti Tema di Tengah Jalan = <span class="text-red-400 font-bold">+15k</span></li>
+                        </ul>
                     </div>
                 </div>
-                <div
-                    class="bg-navy text-cream border-2 border-dashed border-periwinkle p-4 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <div class="text-center md:text-left"><span class="font-pixel text-lg text-softblue block">STARTS
-                            FROM:</span><span class="font-pixel text-4xl font-bold">Rp 75k</span></div>
-                    <a href="https://wa.me/6285117776959?text=Halo%20anno.tech%2C%20bantu%20Skripsi%20saya%20dong"
-                        target="_blank"
-                        class="bg-cream text-navy font-pixel text-xl px-6 py-2 border-2 border-white hover:bg-periwinkle hover:text-white transition-all">SOS_Help_></a>
+
+                <div class="bg-softblue/30 border-2 border-dashed border-navy p-4 flex flex-col md:flex-row justify-between items-center gap-4">
+                    <div class="text-center md:text-left">
+                        <span class="font-pixel text-lg text-navy block mb-1">STARTS FROM:</span>
+                        <span class="font-pixel text-4xl font-bold text-navy">Rp 50k</span>
+                    </div>
+                    <a href="https://wa.me/6285117776959?text=Halo%20anno.tech%2C%20saya%20tertarik%20bikin%20Undangan%20Digital" target="_blank" class="bg-navy text-white font-pixel text-xl md:text-2xl px-6 py-3 border-2 border-navy hover:bg-cream hover:text-navy transition-all transform hover:-translate-y-1 shadow-[4px_4px_0_#A9B5DF] hover:shadow-none focus:outline-none">Order_Now_></a>
                 </div>
             </div>
         </div>
