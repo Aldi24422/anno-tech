@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Homepage (Single-Page Application) -->
+    <url>
+        <loc>https://anno.tech/</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Services Section -->
+    <url>
+        <loc>https://anno.tech/#services</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Showcase / Portfolio Section -->
+    <url>
+        <loc>https://anno.tech/#showcase</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- About Section -->
+    <url>
+        <loc>https://anno.tech/#about</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- About Page (Standalone) -->
+    <url>
+        <loc>https://anno.tech/about</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Workflow Section -->
+    <url>
+        <loc>https://anno.tech/#workflow</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- FAQ Section -->
+    <url>
+        <loc>https://anno.tech/#faq</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Contacts Section -->
+    <url>
+        <loc>https://anno.tech/#contacts</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Order / CTA Section -->
+    <url>
+        <loc>https://anno.tech/#order</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
