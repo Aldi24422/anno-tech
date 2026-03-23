@@ -123,7 +123,6 @@
                 <div class="group relative" data-tilt>
                     <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-3 translate-y-3"></div>
                     <div class="relative bg-navy border-4 border-navy p-5 md:p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
-                        <div class="absolute -top-5 -right-5 bg-red-500 text-white font-pixel text-base px-3 py-1 border-2 border-navy shadow-[4px_4px_0_#000] rotate-12 z-20">BEST SELLER!</div>
                         <div class="bg-cream w-16 h-16 border-4 border-white flex items-center justify-center text-3xl mb-5 shadow-[4px_4px_0_#A9B5DF]">🎓</div>
                         <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-cream leading-snug">ACADEMIC & SKRIPSI</h3>
                         <p class="font-body text-base lg:text-lg text-softblue mb-6 flex-grow border-l-4 border-cream pl-3 leading-relaxed">Paket Penyelamat Semester Akhir. Skripsi Error, Dosen Teror? anno.tech Siap Jadi Eksekutor!</p>
@@ -135,6 +134,7 @@
                 <div class="group relative" data-tilt>
                     <div class="absolute top-0 left-0 w-full h-full bg-navy translate-x-3 translate-y-3"></div>
                     <div class="relative bg-cream border-4 border-navy p-5 md:p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div class="absolute -top-5 -right-5 bg-red-500 text-white font-pixel text-base px-3 py-1 border-2 border-navy shadow-[4px_4px_0_#000] rotate-12 z-20">BEST SELLER!</div>
                         <div class="bg-softblue w-16 h-16 border-4 border-navy flex items-center justify-center text-3xl mb-5 shadow-[4px_4px_0_#2D336B]">💻</div>
                         <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-navy leading-snug">WEB-APPS DEV</h3>
                         <p class="font-body text-base lg:text-lg text-navy/80 mb-6 flex-grow border-l-4 border-periwinkle pl-3 leading-relaxed">Landing Page, Web Dinamis (CMS), hingga Custom Web App Kasir / E-Commerce.</p>
@@ -193,12 +193,7 @@
                 <div class="p-8 md:p-12 font-body text-lg text-navy leading-relaxed bg-white">
                     <p class="font-pixel text-2xl mb-6 border-b-2 border-dashed border-navy/30 pb-4">Hello, World! Welcome
                         to <span class="text-periwinkle">anno.tech</span></p>
-                    <p class="mb-4">Kami adalah digital agency spesialis dalam Web Development, Data Science/AI, dan
-                        Academic Assistance (Skripsi Rescue) yang dibumbui dengan estetika retro nostalgia.</p>
-                    <p class="mb-4">Di anno.tech, kami percaya teknologi harus bisa menjawab masalah kompleks dengan solusi
-                        simpel, elegan, dan pastinya <span class="font-bold underline text-red-500">bebas dari bugs</span>.
-                    </p>
-                    <p>Mari berkolaborasi dan wujudkan project impian Anda menjadi kenyataan, pixel by pixel.</p>
+                    <p class="mb-4 text-justify">Anno.Tech adalah studio digital yang merancang website, aplikasi, dan sistem andal—memadukan desain clean dengan fungsionalitas yang optimal. Mari berkolaborasi dan wujudkan project Anda bersama kami.</p>
 
                     <div class="mt-8 font-pixel text-navy/60 text-sm">
                         > END OF FILE.<br>
@@ -218,46 +213,89 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
-                <!-- Portfolio 1 -->
-                <div class="group relative" data-tilt data-tilt-max="5">
+                <!-- Portfolio 1: Company Profile Web (from old info) -->
+                <div class="group relative" data-tilt data-tilt-max="4">
                     <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-3 translate-y-3"></div>
-                    <div
-                        class="relative bg-cream border-4 border-navy p-4 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
-                        <div
-                            class="bg-softblue border-2 border-navy h-48 mb-4 shadow-inner flex items-center justify-center overflow-hidden">
-                            <span class="text-6xl">🎨</span>
+                    <div class="relative bg-cream border-4 border-navy p-5 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div class="bg-softblue border-2 border-navy h-48 md:h-56 mb-5 shadow-inner flex items-center justify-center overflow-hidden">
+                            <img src="{{ asset('assets/showcase/web/WhatsApp Image 2026-03-23 at 9.27.20 PM.jpeg') }}" alt="Company Profile Web" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
                         </div>
-                        <h3 class="font-pixel text-2xl text-navy mb-2">Company Profile Web</h3>
-                        <p class="font-body text-navy/80 text-sm">Website modern & interaktif untuk corporate client.</p>
+                        <h3 class="font-pixel text-2xl lg:text-3xl text-navy mb-3">Company Profile Web</h3>
+                        <p class="font-body text-navy/80 text-base mb-4">Website modern & interaktif untuk corporate client yang menonjolkan profesionalitas.</p>
+                        <div class="text-sm font-body text-navy/70 space-y-2 flex-grow">
+                            <p><strong>🌐 Web-Profile:</strong> Frontend yang responsif dan optimasi performa tinggi untuk membangun citra digital perusahaan.</p>
+                        </div>
+                        <button onclick="openLightbox('web', 'COMPANY_PROFILE_WEB')" class="mt-4 bg-navy text-white font-pixel px-4 py-2 border-2 border-navy hover:bg-periwinkle transition-all w-full text-center shadow-[4px_4px_0_#2D336B] hover:translate-y-1 hover:translate-x-1 hover:shadow-none active:translate-y-2 active:translate-x-2">Lihat Selengkapnya_>></button>
                     </div>
                 </div>
 
-                <!-- Portfolio 2 -->
-                <div class="group relative" data-tilt data-tilt-max="5">
-                    <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-3 translate-y-3"></div>
-                    <div
-                        class="relative bg-cream border-4 border-navy p-4 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
-                        <div
-                            class="bg-navy border-2 border-navy h-48 mb-4 shadow-inner flex items-center justify-center overflow-hidden">
-                            <span class="text-6xl">🤖</span>
+                <!-- Portfolio 2: Annogram -->
+                <div class="group relative" data-tilt data-tilt-max="4">
+                    <div class="absolute top-0 left-0 w-full h-full bg-navy translate-x-3 translate-y-3"></div>
+                    <div class="relative bg-cream border-4 border-navy p-5 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div class="bg-navy border-2 border-navy h-48 md:h-56 mb-5 shadow-inner flex items-center justify-center overflow-hidden">
+                            <img src="{{ asset('assets/showcase/annogram/Screenshot 2025-12-31 171947.png') }}" alt="Annogram" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
                         </div>
-                        <h3 class="font-pixel text-2xl text-navy mb-2">AI Face Recognition</h3>
-                        <p class="font-body text-navy/80 text-sm">Sistem absensi cerdas berbasis Machine Learning & OpenCV.
-                        </p>
+                        <h3 class="font-pixel text-2xl lg:text-3xl text-navy mb-3">Annogram</h3>
+                        <p class="font-body text-navy/80 text-base mb-4">Aplikasi chat komunikasi yang cepat, aman, dan cerdas.</p>
+                        <div class="text-sm font-body text-navy/70 space-y-2 flex-grow">
+                            <p><strong>🔒 Fitur Keamanan:</strong> Lock Chat Rahasia (PIN) & Decoy Vault Privacy.</p>
+                            <p><strong>💡 Fitur Cerdas:</strong> Smart Contact Sync, Ultra-Fast Media, AI Voice Note Summarizer, & Interactive Co-Space.</p>
+                        </div>
+                        <button onclick="openLightbox('annogram', 'ANNOGRAM_APP')" class="mt-4 bg-navy text-white font-pixel px-4 py-2 border-2 border-navy hover:bg-periwinkle transition-all w-full text-center shadow-[4px_4px_0_#2D336B] hover:translate-y-1 hover:translate-x-1 hover:shadow-none active:translate-y-2 active:translate-x-2">Lihat Selengkapnya_>></button>
                     </div>
                 </div>
 
-                <!-- Portfolio 3 -->
-                <div class="group relative" data-tilt data-tilt-max="5">
-                    <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-3 translate-y-3"></div>
-                    <div
-                        class="relative bg-cream border-4 border-navy p-4 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
-                        <div
-                            class="bg-red-500 border-2 border-navy h-48 mb-4 shadow-inner flex items-center justify-center overflow-hidden">
-                            <span class="text-6xl">📱</span>
+                <!-- Portfolio 3: Kurash Usul Scoring -->
+                <div class="group relative" data-tilt data-tilt-max="4">
+                    <div class="absolute top-0 left-0 w-full h-full bg-red-400 translate-x-3 translate-y-3"></div>
+                    <div class="relative bg-cream border-4 border-navy p-5 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div class="bg-red-400 border-2 border-navy h-48 md:h-56 mb-5 shadow-inner flex items-center justify-center overflow-hidden">
+                            <img src="{{ asset('assets/showcase/kurash usul scoring/Screenshot 2026-01-12 051437.png') }}" alt="Kurash Usul Scoring" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
                         </div>
-                        <h3 class="font-pixel text-2xl text-navy mb-2">Finance Mobile App</h3>
-                        <p class="font-body text-navy/80 text-sm">Aplikasi manajemen finansial pribadi di Android/iOS.</p>
+                        <h3 class="font-pixel text-2xl lg:text-3xl text-navy mb-3">Kurash Usul Scoring</h3>
+                        <p class="font-body text-navy/80 text-base mb-4">Sistem penilaian real-time pertandingan Kurash kategori Usul.</p>
+                        <div class="text-sm font-body text-navy/70 space-y-2 flex-grow">
+                            <p><strong>✨ Fitur Inti:</strong> Live Scoring, Smart Auto-Calculation, Intelligent Timer & Penalty.</p>
+                            <p><strong>👥 Akses Multi-Peran:</strong> Admin (Bagan), Juri (Poin), & Layar TV/Kontrol.</p>
+                        </div>
+                        <button onclick="openLightbox('kurash', 'KURASH_USUL_SCORING')" class="mt-4 bg-red-400 text-navy font-pixel px-4 py-2 border-2 border-navy hover:bg-periwinkle hover:text-white transition-all w-full text-center shadow-[4px_4px_0_#2D336B] hover:translate-y-1 hover:translate-x-1 hover:shadow-none active:translate-y-2 active:translate-x-2">Lihat Selengkapnya_>></button>
+                    </div>
+                </div>
+
+                <!-- Portfolio 4: Woodball Scoreboard -->
+                <div class="group relative" data-tilt data-tilt-max="4">
+                    <div class="absolute top-0 left-0 w-full h-full bg-green-400 translate-x-3 translate-y-3"></div>
+                    <div class="relative bg-cream border-4 border-navy p-5 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div class="bg-green-400 border-2 border-navy h-48 md:h-56 mb-5 shadow-inner flex items-center justify-center overflow-hidden">
+                            <img src="{{ asset('assets/showcase/woodball scoreboard/WhatsApp Image 2026-01-11 at 7.37.37 PM (1).jpeg') }}" alt="Woodball Scoreboard" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
+                        </div>
+                        <h3 class="font-pixel text-2xl lg:text-3xl text-navy mb-3">Woodball Scoreboard</h3>
+                        <p class="font-body text-navy/80 text-base mb-4">World's First Algorithmic System solusi digital komunitas woodball.</p>
+                        <div class="text-sm font-body text-navy/70 space-y-2 flex-grow">
+                            <p><strong>📊 Fitur Inti:</strong> Live Score & Analisis Statistik Performa.</p>
+                            <p><strong>👨‍🏫 Akses Pelatih:</strong> Dashboard atlet, sesi pairing, dll.</p>
+                            <p><strong>🏃 Akses Atlet:</strong> Ringkasan Average Score & riwayat.</p>
+                        </div>
+                        <button onclick="openLightbox('woodball', 'WOODBALL_SCOREBOARD')" class="mt-4 bg-green-400 text-navy font-pixel px-4 py-2 border-2 border-navy hover:bg-periwinkle hover:text-white transition-all w-full text-center shadow-[4px_4px_0_#2D336B] hover:translate-y-1 hover:translate-x-1 hover:shadow-none active:translate-y-2 active:translate-x-2">Lihat Selengkapnya_>></button>
+                    </div>
+                </div>
+
+                <!-- Portfolio 5: Siniops Enterprise -->
+                <div class="group relative lg:col-span-1 md:col-span-2 mx-auto lg:mx-0 w-full" data-tilt data-tilt-max="4">
+                    <div class="absolute top-0 left-0 w-full h-full bg-yellow-400 translate-x-3 translate-y-3"></div>
+                    <div class="relative bg-cream border-4 border-navy p-5 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div class="bg-yellow-400 border-2 border-navy h-48 md:h-56 mb-5 shadow-inner flex items-center justify-center overflow-hidden">
+                            <img src="{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.09 AM.jpeg') }}" alt="Siniops Enterprise" class="w-full h-full object-cover p-2 bg-cream transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
+                        </div>
+                        <h3 class="font-pixel text-2xl lg:text-3xl text-navy mb-3">Siniops Enterprise</h3>
+                        <p class="font-body text-navy/80 text-base mb-4">Sistem manajemen F&B terpadu dan kasir operasional hulu ke hilir.</p>
+                        <div class="text-sm font-body text-navy/70 space-y-2 flex-grow">
+                            <p><strong>💳 Transaksi:</strong> Kasir tunai & QRIS otomatis (Scan to Pay).</p>
+                            <p><strong>📦 Operasional & Inventaris:</strong> Manajemen menu, Stok bahan baku, & Printer Bluetooth.</p>
+                            <p><strong>📈 Laporan & RBA:</strong> Omzet, Rekap produk, dan Hak Akses (Owner, Manager, Crew).</p>
+                        </div>
+                        <button onclick="openLightbox('siniops', 'SINIOPS_F&B')" class="mt-4 bg-yellow-400 text-navy font-pixel px-4 py-2 border-2 border-navy hover:bg-periwinkle hover:text-white transition-all w-full text-center shadow-[4px_4px_0_#2D336B] hover:translate-y-1 hover:translate-x-1 hover:shadow-none active:translate-y-2 active:translate-x-2">Lihat Selengkapnya_>></button>
                     </div>
                 </div>
             </div>
@@ -398,6 +436,47 @@
                         Kami menerapkan sistem DP (Down Payment) minimal 50% di awal sebelum project dikerjakan. Sisanya
                         dibayarkan setelah project selesai dan disetujui, sebelum penyerahan source code.
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACTS -->
+    <section id="contacts" class="py-24 relative overflow-hidden bg-softblue/30">
+        <div class="max-w-4xl mx-auto px-6" data-tilt data-tilt-max="2">
+            <div class="bg-navy border-4 border-navy shadow-[12px_12px_0_#A9B5DF] relative z-10 p-8 md:p-12 text-center">
+                <!-- Window Header -->
+                <div class="absolute top-0 left-0 w-full h-8 bg-cream border-b-4 border-navy flex items-center px-4 gap-2">
+                    <div class="w-3 h-3 bg-red-500 border-2 border-navy"></div>
+                    <div class="w-3 h-3 bg-yellow-400 border-2 border-navy"></div>
+                    <div class="w-3 h-3 bg-green-500 border-2 border-navy"></div>
+                    <span class="ml-4 font-pixel text-sm text-navy uppercase">contacts.exe</span>
+                </div>
+                
+                <h2 class="font-pixel text-3xl md:text-5xl text-cream mb-8 mt-4 tracking-wide">_CONNECT_WITH_US</h2>
+                
+                <div class="flex flex-col md:flex-row justify-center gap-6">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/anno.tech24/" target="_blank" class="group relative inline-block focus:outline-none focus:ring w-full md:w-auto">
+                        <span class="absolute inset-0 translate-x-2 translate-y-2 bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 transition-transform group-hover:translate-y-3 group-hover:translate-x-3 border-2 border-navy"></span>
+                        <span class="relative inline-flex items-center justify-center gap-3 border-2 border-navy bg-white px-8 py-4 font-pixel text-xl font-bold uppercase tracking-widest text-navy transition-transform group-hover:-translate-y-1 group-hover:-translate-x-1 w-full">
+                            <svg class="w-7 h-7 text-[#E1306C]" viewBox="0 0 448 512" fill="currentColor">
+                                <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                            </svg>
+                            INSTAGRAM
+                        </span>
+                    </a>
+
+                    <!-- TikTok -->
+                    <a href="https://www.tiktok.com/@anno.tech?lang=en-GB" target="_blank" class="group relative inline-block focus:outline-none focus:ring w-full md:w-auto">
+                        <span class="absolute inset-0 translate-x-2 translate-y-2 bg-black transition-transform group-hover:translate-y-3 group-hover:translate-x-3 border-2 border-navy"></span>
+                        <span class="relative inline-flex items-center justify-center gap-3 border-2 border-navy bg-white px-8 py-4 font-pixel text-xl font-bold uppercase tracking-widest text-navy transition-transform group-hover:-translate-y-1 group-hover:-translate-x-1 w-full">
+                            <svg class="w-7 h-7 text-black" viewBox="0 0 448 512" fill="currentColor">
+                                <path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/>
+                            </svg>
+                            TIKTOK
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -727,6 +806,29 @@
         </div>
     </div>
 
+    <!-- LIGHTBOX MODAL -->
+    <div id="lightbox-modal" class="fixed inset-0 z-[110] hidden items-center justify-center bg-navy/90 backdrop-blur-md p-4 transition-all opacity-0">
+        <div class="bg-cream border-4 border-navy shadow-[10px_10px_0_#7886C7] w-full max-w-4xl transform scale-90 transition-all duration-300 relative">
+            <div class="bg-periwinkle p-2 flex justify-between items-center text-white font-pixel text-xl border-b-4 border-navy">
+                <span id="lightbox-title" class="flex items-center gap-2">📷 IMAGE_VIEWER.EXE</span>
+                <button onclick="closeLightbox()" class="bg-red-500 w-8 h-8 border-2 border-white flex items-center justify-center hover:bg-red-600 focus:outline-none">X</button>
+            </div>
+            <div class="p-4 md:p-6 relative">
+                <div class="flex items-center justify-center h-[50vh] md:h-[65vh] bg-navy border-4 border-navy relative overflow-hidden group">
+                    <img id="lightbox-img" src="" alt="View" class="max-w-full max-h-full object-contain transition-opacity duration-300">
+                    
+                    <!-- Navigation -->
+                    <button onclick="prevImage()" class="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 bg-cream text-navy font-pixel text-2xl w-10 h-10 border-2 border-navy hover:bg-periwinkle hover:text-white transition-all shadow-[4px_4px_0_#2D336B] hover:shadow-none translate-x-[-10px] group-hover:translate-x-0 opacity-0 group-hover:opacity-100 z-10">&lt;</button>
+                    <button onclick="nextImage()" class="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 bg-cream text-navy font-pixel text-2xl w-10 h-10 border-2 border-navy hover:bg-periwinkle hover:text-white transition-all shadow-[4px_4px_0_#2D336B] hover:shadow-none translate-x-[10px] group-hover:translate-x-0 opacity-0 group-hover:opacity-100 z-10">&gt;</button>
+                </div>
+                <div class="mt-4 flex justify-between items-center font-pixel text-navy bg-cream p-2">
+                    <span id="lightbox-counter" class="bg-navy text-white px-3 py-1">1 / 5</span>
+                    <span class="text-sm border-b-2 border-dashed border-navy">Use &lt; &gt; to navigate</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
 @endsection
 
 @push('scripts')
@@ -799,6 +901,109 @@
                     button.classList.remove('bg-periwinkle');
                 }
             });
+        });
+
+        // 5. LIGHTBOX MODAL LOGIC
+        const showcaseImages = {
+            'web': [
+                "{{ asset('assets/showcase/web/WhatsApp Image 2026-03-23 at 9.27.20 PM.jpeg') }}"
+            ],
+            'annogram': [
+                "{{ asset('assets/showcase/annogram/Screenshot 2025-12-31 171947.png') }}",
+                "{{ asset('assets/showcase/annogram/Screenshot 2025-12-31 173427.png') }}",
+                "{{ asset('assets/showcase/annogram/Screenshot 2025-12-31 205808.png') }}",
+                "{{ asset('assets/showcase/annogram/WhatsApp Image 2026-01-12 at 5.09.45 AM.jpeg') }}"
+            ],
+            'kurash': [
+                "{{ asset('assets/showcase/kurash usul scoring/Screenshot 2026-01-12 051437.png') }}",
+                "{{ asset('assets/showcase/kurash usul scoring/Screenshot 2026-01-12 051503.png') }}",
+                "{{ asset('assets/showcase/kurash usul scoring/Screenshot 2026-01-12 051533.png') }}",
+                "{{ asset('assets/showcase/kurash usul scoring/Screenshot 2026-01-12 051559.png') }}",
+                "{{ asset('assets/showcase/kurash usul scoring/Screenshot 2026-01-12 051617.png') }}"
+            ],
+            'woodball': [
+                "{{ asset('assets/showcase/woodball scoreboard/WhatsApp Image 2026-01-11 at 7.37.37 PM (1).jpeg') }}",
+                "{{ asset('assets/showcase/woodball scoreboard/WhatsApp Image 2026-01-11 at 7.37.37 PM.jpeg') }}",
+                "{{ asset('assets/showcase/woodball scoreboard/WhatsApp Image 2026-01-11 at 7.37.38 PM.jpeg') }}",
+                "{{ asset('assets/showcase/woodball scoreboard/WhatsApp Image 2026-01-11 at 7.37.39 PM.jpeg') }}",
+                "{{ asset('assets/showcase/woodball scoreboard/WhatsApp Image 2026-01-11 at 7.37.40 PM.jpeg') }}"
+            ],
+            'siniops': [
+                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.09 AM.jpeg') }}",
+                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.10 AM (1).jpeg') }}",
+                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.10 AM.jpeg') }}",
+                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.11 AM (1).jpeg') }}",
+                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.11 AM.jpeg') }}",
+                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.12 AM (1).jpeg') }}",
+                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.12 AM (2).jpeg') }}",
+                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.12 AM.jpeg') }}",
+                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.13 AM.jpeg') }}"
+            ]
+        };
+
+        let currentGallery = [];
+        let currentGalleryIndex = 0;
+
+        function openLightbox(projectKey, title) {
+            currentGallery = showcaseImages[projectKey];
+            if (!currentGallery || currentGallery.length === 0) return;
+            
+            currentGalleryIndex = 0;
+            document.getElementById('lightbox-title').innerHTML = `📷 ` + title;
+            updateLightboxImage();
+
+            const modal = document.getElementById('lightbox-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                modal.firstElementChild.classList.remove('scale-90');
+                modal.firstElementChild.classList.add('scale-100');
+            }, 10);
+        }
+
+        function closeLightbox() {
+            const modal = document.getElementById('lightbox-modal');
+            modal.classList.add('opacity-0');
+            modal.firstElementChild.classList.remove('scale-100');
+            modal.firstElementChild.classList.add('scale-90');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }, 300);
+        }
+
+        function updateLightboxImage() {
+            const img = document.getElementById('lightbox-img');
+            img.style.opacity = 0;
+            setTimeout(() => {
+                img.src = currentGallery[currentGalleryIndex];
+                img.style.opacity = 1;
+            }, 150);
+            
+            document.getElementById('lightbox-counter').textContent = `${currentGalleryIndex + 1} / ${currentGallery.length}`;
+        }
+
+        function nextImage() {
+            if (!currentGallery || currentGallery.length === 0) return;
+            currentGalleryIndex = (currentGalleryIndex + 1) % currentGallery.length;
+            updateLightboxImage();
+        }
+
+        function prevImage() {
+            if (!currentGallery || currentGallery.length === 0) return;
+            currentGalleryIndex = (currentGalleryIndex - 1 + currentGallery.length) % currentGallery.length;
+            updateLightboxImage();
+        }
+
+        // Add keyboard support to lightbox
+        document.addEventListener('keydown', (e) => {
+            const modal = document.getElementById('lightbox-modal');
+            if (modal && !modal.classList.contains('hidden')) {
+                if (e.key === 'ArrowRight') nextImage();
+                if (e.key === 'ArrowLeft') prevImage();
+                if (e.key === 'Escape') closeLightbox();
+            }
         });
     </script>
 @endpush

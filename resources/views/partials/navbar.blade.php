@@ -46,6 +46,12 @@
                     class="absolute left-0 bottom-0 w-0 h-[3px] border-b-2 border-dotted border-periwinkle transition-all group-hover/link:w-full"></span>
             </a>
 
+            <a href="{{ url('/') }}#contacts" class="relative group/link py-1 hover:text-periwinkle transition-colors">
+                Contacts_
+                <span
+                    class="absolute left-0 bottom-0 w-0 h-[3px] border-b-2 border-dotted border-periwinkle transition-all group-hover/link:w-full"></span>
+            </a>
+
             <a href="{{ url('/') }}#order"
                 class="bg-navy text-white px-6 py-2 rounded-lg border-2 border-navy hover:bg-cream hover:text-navy hover:shadow-[3px_3px_0_#A9B5DF] transition-all transform active:translate-y-[1px] active:shadow-none flex items-center gap-2 text-lg">
                 Order_Now <span class="hidden lg:inline">_></span>
@@ -94,6 +100,11 @@
                 > FAQ_
             </a>
 
+            <a href="{{ url('/') }}#contacts" onclick="toggleMobileMenu()"
+                class="block border-b-2 border-dashed border-navy/20 pb-2 hover:text-periwinkle hover:pl-2 transition-all">
+                > Contacts_
+            </a>
+
             <a href="{{ url('/') }}#order" onclick="toggleMobileMenu()"
                 class="bg-navy text-white text-center py-3 rounded-lg border-2 border-navy hover:bg-periwinkle active:scale-95 transition-all">
                 Order_Now_>
@@ -137,4 +148,57 @@
             iconClose.classList.remove('block');
         }
     }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const sections = document.querySelectorAll('section[id]');
+        const desktopLinks = document.querySelectorAll('.hidden.md\\:flex a[href*="#"]');
+        const mobileLinks = document.querySelectorAll('#mobile-menu a[href*="#"]');
+
+        const updateNavbar = () => {
+            let scrollY = window.scrollY;
+            let current = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 250) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            desktopLinks.forEach(link => {
+                const href = link.getAttribute('href');
+                if (href.includes('#order')) return; // Skip styling for order button
+
+                const span = link.querySelector('span');
+                if (current && href.includes('#' + current)) {
+                    link.classList.add('text-periwinkle');
+                    if (span) {
+                        span.classList.remove('w-0');
+                        span.classList.add('w-full');
+                    }
+                } else {
+                    link.classList.remove('text-periwinkle');
+                    if (span) {
+                        span.classList.remove('w-full');
+                        span.classList.add('w-0');
+                    }
+                }
+            });
+
+            mobileLinks.forEach(link => {
+                const href = link.getAttribute('href');
+                if (href.includes('#order')) return; // Skip styling for order button
+
+                if (current && href.includes('#' + current)) {
+                    link.classList.add('text-periwinkle', 'pl-2');
+                } else {
+                    link.classList.remove('text-periwinkle', 'pl-2');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', updateNavbar);
+        // Run once on load to set initial state
+        updateNavbar();
+    });
 </script>
