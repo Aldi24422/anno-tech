@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="k-f5JmpG0tvq6lniNXTNlJ1pUbFQ0dH9mCSMeMfxydI" />
     <title>@yield('title', 'anno.tech | IT Solutions')</title>
     <link rel="icon" href="{{ asset('favicon.png') }}?v=4" type="image/png">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}?v=4" type="image/x-icon">
