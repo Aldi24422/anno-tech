@@ -121,24 +121,24 @@
 
                 <!-- Service 1: Academic & Skripsi -->
                 <div class="group relative" data-tilt>
-                    <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-3 translate-y-3"></div>
-                    <div class="relative bg-navy border-4 border-navy p-5 md:p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
-                        <div class="bg-cream w-16 h-16 border-4 border-white flex items-center justify-center text-3xl mb-5 shadow-[4px_4px_0_#A9B5DF]">🎓</div>
-                        <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-cream leading-snug">ACADEMIC & SKRIPSI</h3>
-                        <p class="font-body text-base lg:text-lg text-softblue mb-6 flex-grow border-l-4 border-cream pl-3 leading-relaxed">Paket Penyelamat Semester Akhir. Skripsi Error, Dosen Teror? anno.tech Siap Jadi Eksekutor!</p>
-                        <button onclick="openModal('modal-skripsi')" class="font-pixel text-xl text-right text-cream hover:text-softblue block mt-auto w-full text-left transition-colors">Details_>>></button>
+                    <div class="absolute top-0 left-0 w-full h-full bg-navy translate-x-3 translate-y-3"></div>
+                    <div class="relative bg-cream border-4 border-navy p-5 md:p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div class="bg-softblue w-16 h-16 border-4 border-navy flex items-center justify-center text-3xl mb-5 shadow-[4px_4px_0_#2D336B]">🎓</div>
+                        <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-navy leading-snug">ACADEMIC & SKRIPSI</h3>
+                        <p class="font-body text-base lg:text-lg text-navy/80 mb-6 flex-grow border-l-4 border-periwinkle pl-3 leading-relaxed">Paket Penyelamat Semester Akhir. Skripsi Error, Dosen Teror? anno.tech Siap Jadi Eksekutor!</p>
+                        <button onclick="openModal('modal-skripsi')" class="font-pixel text-xl text-right hover:text-periwinkle block mt-auto w-full text-left transition-colors">Details_>>></button>
                     </div>
                 </div>
 
                 <!-- Service 2: Web-Apps Dev -->
                 <div class="group relative" data-tilt>
-                    <div class="absolute top-0 left-0 w-full h-full bg-navy translate-x-3 translate-y-3"></div>
-                    <div class="relative bg-cream border-4 border-navy p-5 md:p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                    <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-3 translate-y-3"></div>
+                    <div class="relative bg-navy border-4 border-navy p-5 md:p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
                         <div class="absolute -top-5 -right-5 bg-red-500 text-white font-pixel text-base px-3 py-1 border-2 border-navy shadow-[4px_4px_0_#000] rotate-12 z-20">BEST SELLER!</div>
-                        <div class="bg-softblue w-16 h-16 border-4 border-navy flex items-center justify-center text-3xl mb-5 shadow-[4px_4px_0_#2D336B]">💻</div>
-                        <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-navy leading-snug">WEB-APPS DEV</h3>
-                        <p class="font-body text-base lg:text-lg text-navy/80 mb-6 flex-grow border-l-4 border-periwinkle pl-3 leading-relaxed">Landing Page, Web Dinamis (CMS), hingga Custom Web App Kasir / E-Commerce.</p>
-                        <button onclick="openModal('modal-webapp')" class="font-pixel text-xl text-right hover:text-periwinkle block mt-auto w-full text-left transition-colors">Details_>>></button>
+                        <div class="bg-cream w-16 h-16 border-4 border-white flex items-center justify-center text-3xl mb-5 shadow-[4px_4px_0_#A9B5DF]">💻</div>
+                        <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-cream leading-snug">WEB-APPS DEV</h3>
+                        <p class="font-body text-base lg:text-lg text-softblue mb-6 flex-grow border-l-4 border-cream pl-3 leading-relaxed">Landing Page, Web Dinamis (CMS), hingga Custom Web App Kasir / E-Commerce.</p>
+                        <button onclick="openModal('modal-webapp')" class="font-pixel text-xl text-right text-cream hover:text-softblue block mt-auto w-full text-left transition-colors">Details_>>></button>
                     </div>
                 </div>
 
