@@ -3,7 +3,7 @@
 
     <!-- Homepage (Single-Page Application) -->
     <url>
-        <loc>https://anno.tech/</loc>
+        <loc>https://anno-tech24.vercel.app/</loc>
         <lastmod>2026-03-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
     <!-- Services Section -->
     <url>
-        <loc>https://anno.tech/#services</loc>
+        <loc>https://anno-tech24.vercel.app/#services</loc>
         <lastmod>2026-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -19,7 +19,7 @@
 
     <!-- Showcase / Portfolio Section -->
     <url>
-        <loc>https://anno.tech/#showcase</loc>
+        <loc>https://anno-tech24.vercel.app/#showcase</loc>
         <lastmod>2026-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -27,7 +27,7 @@
 
     <!-- About Section -->
     <url>
-        <loc>https://anno.tech/#about</loc>
+        <loc>https://anno-tech24.vercel.app/#about</loc>
         <lastmod>2026-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -35,7 +35,7 @@
 
     <!-- About Page (Standalone) -->
     <url>
-        <loc>https://anno.tech/about</loc>
+        <loc>https://anno-tech24.vercel.app/about</loc>
         <lastmod>2026-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -43,7 +43,7 @@
 
     <!-- Workflow Section -->
     <url>
-        <loc>https://anno.tech/#workflow</loc>
+        <loc>https://anno-tech24.vercel.app/#workflow</loc>
         <lastmod>2026-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -51,7 +51,7 @@
 
     <!-- FAQ Section -->
     <url>
-        <loc>https://anno.tech/#faq</loc>
+        <loc>https://anno-tech24.vercel.app/#faq</loc>
         <lastmod>2026-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -59,7 +59,7 @@
 
     <!-- Contacts Section -->
     <url>
-        <loc>https://anno.tech/#contacts</loc>
+        <loc>https://anno-tech24.vercel.app/#contacts</loc>
         <lastmod>2026-03-23</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
@@ -67,7 +67,7 @@
 
     <!-- Order / CTA Section -->
     <url>
-        <loc>https://anno.tech/#order</loc>
+        <loc>https://anno-tech24.vercel.app/#order</loc>
         <lastmod>2026-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
