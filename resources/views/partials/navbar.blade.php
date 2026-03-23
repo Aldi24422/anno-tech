@@ -16,12 +16,6 @@
         </a>
 
         <div class="hidden md:flex items-center gap-8 font-pixel text-xl text-navy">
-            <a href="{{ url('/') }}#about" class="relative group/link py-1 hover:text-periwinkle transition-colors">
-                About_
-                <span
-                    class="absolute left-0 bottom-0 w-0 h-[3px] border-b-2 border-dotted border-periwinkle transition-all group-hover/link:w-full"></span>
-            </a>
-
             <a href="{{ url('/') }}#services" class="relative group/link py-1 hover:text-periwinkle transition-colors">
                 Services_
                 <span
@@ -30,6 +24,12 @@
 
             <a href="{{ url('/') }}#showcase" class="relative group/link py-1 hover:text-periwinkle transition-colors">
                 Showcase_
+                <span
+                    class="absolute left-0 bottom-0 w-0 h-[3px] border-b-2 border-dotted border-periwinkle transition-all group-hover/link:w-full"></span>
+            </a>
+
+            <a href="{{ url('/') }}#about" class="relative group/link py-1 hover:text-periwinkle transition-colors">
+                About_
                 <span
                     class="absolute left-0 bottom-0 w-0 h-[3px] border-b-2 border-dotted border-periwinkle transition-all group-hover/link:w-full"></span>
             </a>
@@ -75,11 +75,6 @@
         <div
             class="bg-cream border-4 border-navy shadow-[6px_6px_0_rgba(45,51,107,0.3)] rounded-xl p-4 flex flex-col gap-4 font-pixel text-xl text-navy">
 
-            <a href="{{ url('/') }}#about" onclick="toggleMobileMenu()"
-                class="block border-b-2 border-dashed border-navy/20 pb-2 hover:text-periwinkle hover:pl-2 transition-all">
-                > About_
-            </a>
-
             <a href="{{ url('/') }}#services" onclick="toggleMobileMenu()"
                 class="block border-b-2 border-dashed border-navy/20 pb-2 hover:text-periwinkle hover:pl-2 transition-all">
                 > Services_
@@ -88,6 +83,11 @@
             <a href="{{ url('/') }}#showcase" onclick="toggleMobileMenu()"
                 class="block border-b-2 border-dashed border-navy/20 pb-2 hover:text-periwinkle hover:pl-2 transition-all">
                 > Showcase_
+            </a>
+
+            <a href="{{ url('/') }}#about" onclick="toggleMobileMenu()"
+                class="block border-b-2 border-dashed border-navy/20 pb-2 hover:text-periwinkle hover:pl-2 transition-all">
+                > About_
             </a>
 
             <a href="{{ url('/') }}#workflow" onclick="toggleMobileMenu()"

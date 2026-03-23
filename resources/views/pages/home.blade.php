@@ -119,17 +119,6 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
 
-                <!-- Service 1: Academic & Skripsi -->
-                <div class="group relative" data-tilt>
-                    <div class="absolute top-0 left-0 w-full h-full bg-navy translate-x-3 translate-y-3"></div>
-                    <div class="relative bg-cream border-4 border-navy p-5 md:p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
-                        <div class="bg-softblue w-16 h-16 border-4 border-navy flex items-center justify-center text-3xl mb-5 shadow-[4px_4px_0_#2D336B]">🎓</div>
-                        <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-navy leading-snug">ACADEMIC & SKRIPSI</h3>
-                        <p class="font-body text-base lg:text-lg text-navy/80 mb-6 flex-grow border-l-4 border-periwinkle pl-3 leading-relaxed">Paket Penyelamat Semester Akhir. Skripsi Error, Dosen Teror? anno.tech Siap Jadi Eksekutor!</p>
-                        <button onclick="openModal('modal-skripsi')" class="font-pixel text-xl text-right hover:text-periwinkle block mt-auto w-full text-left transition-colors">Details_>>></button>
-                    </div>
-                </div>
-
                 <!-- Service 2: Web-Apps Dev -->
                 <div class="group relative" data-tilt>
                     <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-3 translate-y-3"></div>
@@ -139,6 +128,17 @@
                         <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-cream leading-snug">WEB-APPS DEV</h3>
                         <p class="font-body text-base lg:text-lg text-softblue mb-6 flex-grow border-l-4 border-cream pl-3 leading-relaxed">Landing Page, Web Dinamis (CMS), hingga Custom Web App Kasir / E-Commerce.</p>
                         <button onclick="openModal('modal-webapp')" class="font-pixel text-xl text-right text-cream hover:text-softblue block mt-auto w-full text-left transition-colors">Details_>>></button>
+                    </div>
+                </div>
+
+                <!-- Service 1: Academic & Skripsi -->
+                <div class="group relative" data-tilt>
+                    <div class="absolute top-0 left-0 w-full h-full bg-navy translate-x-3 translate-y-3"></div>
+                    <div class="relative bg-cream border-4 border-navy p-5 md:p-6 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
+                        <div class="bg-softblue w-16 h-16 border-4 border-navy flex items-center justify-center text-3xl mb-5 shadow-[4px_4px_0_#2D336B]">🎓</div>
+                        <h3 class="font-pixel text-2xl lg:text-3xl mb-3 text-navy leading-snug">ACADEMIC & SKRIPSI</h3>
+                        <p class="font-body text-base lg:text-lg text-navy/80 mb-6 flex-grow border-l-4 border-periwinkle pl-3 leading-relaxed">Paket Penyelamat Semester Akhir. Skripsi Error, Dosen Teror? anno.tech Siap Jadi Eksekutor!</p>
+                        <button onclick="openModal('modal-skripsi')" class="font-pixel text-xl text-right hover:text-periwinkle block mt-auto w-full text-left transition-colors">Details_>>></button>
                     </div>
                 </div>
 
@@ -164,42 +164,6 @@
                     </div>
                 </div>
 
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION ABOUT US -->
-    <section id="about" class="py-24 relative overflow-hidden bg-softblue/30">
-        <div class="max-w-4xl mx-auto px-6" data-tilt data-tilt-max="2">
-            <div class="bg-cream border-4 border-navy shadow-[12px_12px_0_#2D336B] relative z-10">
-                <!-- Window Header -->
-                <div class="bg-navy p-2 flex justify-between items-center border-b-4 border-navy">
-                    <div class="text-white font-pixel text-xl flex gap-2">
-                        <span>📄</span> readme.txt - Notepad
-                    </div>
-                    <div class="flex gap-1">
-                        <div
-                            class="w-6 h-6 bg-cream border-2 border-white flex items-center justify-center font-bold text-navy cursor-pointer hover:bg-red-400">
-                            _</div>
-                        <div
-                            class="w-6 h-6 bg-cream border-2 border-white flex items-center justify-center font-bold text-navy cursor-pointer hover:bg-red-400">
-                            □</div>
-                        <div
-                            class="w-6 h-6 bg-cream border-2 border-white flex items-center justify-center font-bold text-navy cursor-pointer hover:bg-red-500">
-                            X</div>
-                    </div>
-                </div>
-                <!-- Window Content -->
-                <div class="p-8 md:p-12 font-body text-lg text-navy leading-relaxed bg-white">
-                    <p class="font-pixel text-2xl mb-6 border-b-2 border-dashed border-navy/30 pb-4">Hello, World! Welcome
-                        to <span class="text-periwinkle">anno.tech</span></p>
-                    <p class="mb-4 text-justify">Anno.Tech adalah studio digital yang merancang website, aplikasi, dan sistem andal—memadukan desain clean dengan fungsionalitas yang optimal. Mari berkolaborasi dan wujudkan project Anda bersama kami.</p>
-
-                    <div class="mt-8 font-pixel text-navy/60 text-sm">
-                        > END OF FILE.<br>
-                        > Press ESC to continue...
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -303,6 +267,42 @@
             <div class="text-center mt-12">
                 <button
                     class="bg-navy text-white font-pixel text-xl px-8 py-3 border-4 border-navy shadow-[6px_6px_0_#A9B5DF] hover:translate-y-1 hover:translate-x-1 hover:shadow-none transition-all active:translate-y-2 active:translate-x-2 active:shadow-none">LOAD_MORE_>></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ABOUT US -->
+    <section id="about" class="py-24 relative overflow-hidden bg-softblue/30">
+        <div class="max-w-4xl mx-auto px-6" data-tilt data-tilt-max="2">
+            <div class="bg-cream border-4 border-navy shadow-[12px_12px_0_#2D336B] relative z-10">
+                <!-- Window Header -->
+                <div class="bg-navy p-2 flex justify-between items-center border-b-4 border-navy">
+                    <div class="text-white font-pixel text-xl flex gap-2">
+                        <span>📄</span> readme.txt - Notepad
+                    </div>
+                    <div class="flex gap-1">
+                        <div
+                            class="w-6 h-6 bg-cream border-2 border-white flex items-center justify-center font-bold text-navy cursor-pointer hover:bg-red-400">
+                            _</div>
+                        <div
+                            class="w-6 h-6 bg-cream border-2 border-white flex items-center justify-center font-bold text-navy cursor-pointer hover:bg-red-400">
+                            □</div>
+                        <div
+                            class="w-6 h-6 bg-cream border-2 border-white flex items-center justify-center font-bold text-navy cursor-pointer hover:bg-red-500">
+                            X</div>
+                    </div>
+                </div>
+                <!-- Window Content -->
+                <div class="p-8 md:p-12 font-body text-lg text-navy leading-relaxed bg-white">
+                    <p class="font-pixel text-2xl mb-6 border-b-2 border-dashed border-navy/30 pb-4">Hello, World! Welcome
+                        to <span class="text-periwinkle">anno.tech</span></p>
+                    <p class="mb-4 text-justify">Anno.Tech adalah studio digital yang merancang website, aplikasi, dan sistem andal—memadukan desain clean dengan fungsionalitas yang optimal. Mari berkolaborasi dan wujudkan project Anda bersama kami.</p>
+
+                    <div class="mt-8 font-pixel text-navy/60 text-sm">
+                        > END OF FILE.<br>
+                        > Press ESC to continue...
+                    </div>
+                </div>
             </div>
         </div>
     </section>
