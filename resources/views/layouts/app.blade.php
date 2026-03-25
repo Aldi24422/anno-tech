@@ -5,7 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="k-f5JmpG0tvq6lniNXTNlJ1pUbFQ0dH9mCSMeMfxydI" />
-    <title>@yield('title', 'anno.tech | IT Solutions')</title>
+    <title>@yield('title', 'anno.tech | Jasa Pembuatan Website & IT Solutions')</title>
+    
+    <meta name="description" content="@yield('meta_desc', 'Anno.Tech adalah studio digital yang melayani jasa pembuatan website, aplikasi custom, undangan digital, hingga pendampingan skripsi IT. Solusi cepat, rapi, dan anti error.')">
+    <meta name="keywords" content="jasa pembuatan website, developer aplikasi, joki skripsi IT, web profile murah, anno.tech, surabaya">
+    <link rel="canonical" href="{{ url()->current() }}">
+
+    <meta property="og:title" content="@yield('title', 'anno.tech | IT Solutions')">
+    <meta property="og:description" content="@yield('meta_desc', 'Studio digital pembuatan website dan aplikasi.')">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
     <link rel="icon" href="{{ asset('favicon.png') }}?v=4" type="image/png">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}?v=4" type="image/x-icon">
 

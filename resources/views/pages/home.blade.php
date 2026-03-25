@@ -113,7 +113,8 @@
                         <section id="services" class="py-24 relative overflow-hidden bg-white/50">
         <div class="max-w-7xl mx-auto px-6">
             <div class="flex items-end gap-4 mb-12 border-b-4 border-navy pb-4">
-                <h2 class="font-pixel text-5xl md:text-6xl text-navy">C:\SERVICES></h2>
+                <h2 class="sr-only">Layanan Jasa Pembuatan Website, Aplikasi, dan Skripsi IT</h2>
+                <div aria-hidden="true" class="font-pixel text-5xl md:text-6xl text-navy">C:\SERVICES></div>
                 <span class="font-pixel text-2xl text-periwinkle animate-pulse">_</span>
             </div>
 
@@ -172,7 +173,8 @@
     <section id="showcase" class="py-24 relative overflow-hidden bg-white/50">
         <div class="max-w-7xl mx-auto px-6">
             <div class="flex items-end gap-4 mb-12 border-b-4 border-navy pb-4">
-                <h2 class="font-pixel text-5xl md:text-6xl text-navy">C:\SHOWCASE></h2>
+                <h2 class="sr-only">Portofolio Aplikasi dan Website Buatan Anno.tech</h2>
+                <div aria-hidden="true" class="font-pixel text-5xl md:text-6xl text-navy">C:\SHOWCASE></div>
                 <span class="font-pixel text-2xl text-periwinkle animate-pulse">_</span>
             </div>
 
@@ -182,7 +184,7 @@
                     <div class="absolute top-0 left-0 w-full h-full bg-periwinkle translate-x-3 translate-y-3"></div>
                     <div class="relative bg-cream border-4 border-navy p-5 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
                         <div class="bg-softblue border-2 border-navy h-48 md:h-56 mb-5 shadow-inner flex items-center justify-center overflow-hidden">
-                            <img src="{{ asset('assets/showcase/web/WhatsApp Image 2026-03-23 at 9.27.20 PM.jpeg') }}" alt="Company Profile Web" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
+                            <img src="{{ asset('assets/showcase/web/jasa-pembuatan-website-company-profile.jpeg') }}" alt="Company Profile Web" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
                         </div>
                         <h3 class="font-pixel text-2xl lg:text-3xl text-navy mb-3">Company Profile Web</h3>
                         <p class="font-body text-navy/80 text-base mb-4">Website modern & interaktif untuk corporate client yang menonjolkan profesionalitas.</p>
@@ -198,7 +200,7 @@
                     <div class="absolute top-0 left-0 w-full h-full bg-navy translate-x-3 translate-y-3"></div>
                     <div class="relative bg-cream border-4 border-navy p-5 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
                         <div class="bg-navy border-2 border-navy h-48 md:h-56 mb-5 shadow-inner flex items-center justify-center overflow-hidden">
-                            <img src="{{ asset('assets/showcase/annogram/Screenshot 2025-12-31 171947.png') }}" alt="Annogram" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
+                            <img src="{{ asset('assets/showcase/annogram/aplikasi-chat-annogram.png') }}" alt="Annogram" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
                         </div>
                         <h3 class="font-pixel text-2xl lg:text-3xl text-navy mb-3">Annogram</h3>
                         <p class="font-body text-navy/80 text-base mb-4">Aplikasi chat komunikasi yang cepat, aman, dan cerdas.</p>
@@ -215,7 +217,7 @@
                     <div class="absolute top-0 left-0 w-full h-full bg-red-400 translate-x-3 translate-y-3"></div>
                     <div class="relative bg-cream border-4 border-navy p-5 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
                         <div class="bg-red-400 border-2 border-navy h-48 md:h-56 mb-5 shadow-inner flex items-center justify-center overflow-hidden">
-                            <img src="{{ asset('assets/showcase/kurash usul scoring/Screenshot 2026-01-12 051437.png') }}" alt="Kurash Usul Scoring" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
+                            <img src="{{ asset('assets/showcase/kurash usul scoring/aplikasi-scoring-kurash-usul.png') }}" alt="Kurash Usul Scoring" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
                         </div>
                         <h3 class="font-pixel text-2xl lg:text-3xl text-navy mb-3">Kurash Usul Scoring</h3>
                         <p class="font-body text-navy/80 text-base mb-4">Sistem penilaian real-time pertandingan Kurash kategori Usul.</p>
@@ -232,7 +234,7 @@
                     <div class="absolute top-0 left-0 w-full h-full bg-green-400 translate-x-3 translate-y-3"></div>
                     <div class="relative bg-cream border-4 border-navy p-5 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
                         <div class="bg-green-400 border-2 border-navy h-48 md:h-56 mb-5 shadow-inner flex items-center justify-center overflow-hidden">
-                            <img src="{{ asset('assets/showcase/woodball scoreboard/WhatsApp Image 2026-01-11 at 7.37.37 PM (1).jpeg') }}" alt="Woodball Scoreboard" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
+                            <img src="{{ asset('assets/showcase/woodball scoreboard/aplikasi-scoreboard-woodball.jpeg') }}" alt="Woodball Scoreboard" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
                         </div>
                         <h3 class="font-pixel text-2xl lg:text-3xl text-navy mb-3">Woodball Scoreboard</h3>
                         <p class="font-body text-navy/80 text-base mb-4">World's First Algorithmic System solusi digital komunitas woodball.</p>
@@ -250,7 +252,7 @@
                     <div class="absolute top-0 left-0 w-full h-full bg-yellow-400 translate-x-3 translate-y-3"></div>
                     <div class="relative bg-cream border-4 border-navy p-5 transition-transform group-hover:-translate-y-2 group-hover:-translate-x-2 h-full flex flex-col">
                         <div class="bg-yellow-400 border-2 border-navy h-48 md:h-56 mb-5 shadow-inner flex items-center justify-center overflow-hidden">
-                            <img src="{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.09 AM.jpeg') }}" alt="Siniops Enterprise" class="w-full h-full object-cover p-2 bg-cream transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
+                            <img src="{{ asset('assets/showcase/siniops/jasa-pembuatan-website-siniops.jpeg') }}" alt="Siniops Enterprise" class="w-full h-full object-cover p-2 bg-cream transition-transform group-hover:scale-110 duration-500 grayscale group-hover:grayscale-0">
                         </div>
                         <h3 class="font-pixel text-2xl lg:text-3xl text-navy mb-3">Siniops Enterprise</h3>
                         <p class="font-body text-navy/80 text-base mb-4">Sistem manajemen F&B terpadu dan kasir operasional hulu ke hilir.</p>
@@ -390,9 +392,8 @@
     <section id="faq" class="py-24 relative overflow-hidden bg-white/50">
         <div class="max-w-4xl mx-auto px-6">
             <div class="text-center mb-12">
-                <h2
-                    class="font-pixel text-4xl md:text-6xl text-navy inline-block bg-cream border-4 border-navy px-6 py-3 shadow-[8px_8px_0_#A9B5DF] transform -rotate-1">
-                    FAQ.INI</h2>
+                <h2 class="sr-only">Pertanyaan Seputar Pembuatan Website dan Jasa IT</h2>
+                <div aria-hidden="true" class="font-pixel text-4xl md:text-6xl text-navy inline-block bg-cream border-4 border-navy px-6 py-3 shadow-[8px_8px_0_#A9B5DF] transform -rotate-1">FAQ.INI</div>
             </div>
 
             <div class="space-y-6 accordion-container">
@@ -906,38 +907,38 @@
         // 5. LIGHTBOX MODAL LOGIC
         const showcaseImages = {
             'web': [
-                "{{ asset('assets/showcase/web/WhatsApp Image 2026-03-23 at 9.27.20 PM.jpeg') }}"
+                "{{ asset('assets/showcase/web/jasa-pembuatan-website-company-profile.jpeg') }}"
             ],
             'annogram': [
-                "{{ asset('assets/showcase/annogram/Screenshot 2025-12-31 171947.png') }}",
-                "{{ asset('assets/showcase/annogram/Screenshot 2025-12-31 173427.png') }}",
-                "{{ asset('assets/showcase/annogram/Screenshot 2025-12-31 205808.png') }}",
-                "{{ asset('assets/showcase/annogram/WhatsApp Image 2026-01-12 at 5.09.45 AM.jpeg') }}"
+                "{{ asset('assets/showcase/annogram/aplikasi-chat-annogram.png') }}",
+                "{{ asset('assets/showcase/annogram/aplikasi-chat-annogram-fitur-chat.png') }}",
+                "{{ asset('assets/showcase/annogram/aplikasi-chat-annogram-dashboard.png') }}",
+                "{{ asset('assets/showcase/annogram/aplikasi-chat-annogram-profil.jpeg') }}"
             ],
             'kurash': [
-                "{{ asset('assets/showcase/kurash usul scoring/Screenshot 2026-01-12 051437.png') }}",
-                "{{ asset('assets/showcase/kurash usul scoring/Screenshot 2026-01-12 051503.png') }}",
-                "{{ asset('assets/showcase/kurash usul scoring/Screenshot 2026-01-12 051533.png') }}",
-                "{{ asset('assets/showcase/kurash usul scoring/Screenshot 2026-01-12 051559.png') }}",
-                "{{ asset('assets/showcase/kurash usul scoring/Screenshot 2026-01-12 051617.png') }}"
+                "{{ asset('assets/showcase/kurash usul scoring/aplikasi-scoring-kurash-usul.png') }}",
+                "{{ asset('assets/showcase/kurash usul scoring/aplikasi-scoring-kurash-bracket.png') }}",
+                "{{ asset('assets/showcase/kurash usul scoring/aplikasi-scoring-kurash-juri.png') }}",
+                "{{ asset('assets/showcase/kurash usul scoring/aplikasi-scoring-kurash-timer.png') }}",
+                "{{ asset('assets/showcase/kurash usul scoring/aplikasi-scoring-kurash-tv.png') }}"
             ],
             'woodball': [
-                "{{ asset('assets/showcase/woodball scoreboard/WhatsApp Image 2026-01-11 at 7.37.37 PM (1).jpeg') }}",
-                "{{ asset('assets/showcase/woodball scoreboard/WhatsApp Image 2026-01-11 at 7.37.37 PM.jpeg') }}",
-                "{{ asset('assets/showcase/woodball scoreboard/WhatsApp Image 2026-01-11 at 7.37.38 PM.jpeg') }}",
-                "{{ asset('assets/showcase/woodball scoreboard/WhatsApp Image 2026-01-11 at 7.37.39 PM.jpeg') }}",
-                "{{ asset('assets/showcase/woodball scoreboard/WhatsApp Image 2026-01-11 at 7.37.40 PM.jpeg') }}"
+                "{{ asset('assets/showcase/woodball scoreboard/aplikasi-scoreboard-woodball.jpeg') }}",
+                "{{ asset('assets/showcase/woodball scoreboard/aplikasi-scoreboard-woodball-dashboard.jpeg') }}",
+                "{{ asset('assets/showcase/woodball scoreboard/aplikasi-scoreboard-woodball-statistik.jpeg') }}",
+                "{{ asset('assets/showcase/woodball scoreboard/aplikasi-scoreboard-woodball-atlet.jpeg') }}",
+                "{{ asset('assets/showcase/woodball scoreboard/aplikasi-scoreboard-woodball-pairing.jpeg') }}"
             ],
             'siniops': [
-                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.09 AM.jpeg') }}",
-                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.10 AM (1).jpeg') }}",
-                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.10 AM.jpeg') }}",
-                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.11 AM (1).jpeg') }}",
-                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.11 AM.jpeg') }}",
-                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.12 AM (1).jpeg') }}",
-                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.12 AM (2).jpeg') }}",
-                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.12 AM.jpeg') }}",
-                "{{ asset('assets/showcase/siniops/WhatsApp Image 2026-01-12 at 5.23.13 AM.jpeg') }}"
+                "{{ asset('assets/showcase/siniops/jasa-pembuatan-website-siniops.jpeg') }}",
+                "{{ asset('assets/showcase/siniops/aplikasi-kasir-siniops-menu.jpeg') }}",
+                "{{ asset('assets/showcase/siniops/aplikasi-kasir-siniops-transaksi.jpeg') }}",
+                "{{ asset('assets/showcase/siniops/aplikasi-kasir-siniops-stok.jpeg') }}",
+                "{{ asset('assets/showcase/siniops/aplikasi-kasir-siniops-laporan.jpeg') }}",
+                "{{ asset('assets/showcase/siniops/aplikasi-kasir-siniops-qris.jpeg') }}",
+                "{{ asset('assets/showcase/siniops/aplikasi-kasir-siniops-printer.jpeg') }}",
+                "{{ asset('assets/showcase/siniops/aplikasi-kasir-siniops-dashboard.jpeg') }}",
+                "{{ asset('assets/showcase/siniops/aplikasi-kasir-siniops-akses.jpeg') }}"
             ]
         };
 
